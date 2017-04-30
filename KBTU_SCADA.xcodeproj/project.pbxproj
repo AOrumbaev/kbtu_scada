@@ -15,11 +15,12 @@
 		5917B79B1EB60CF500AAD8CC /* SensorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5917B79A1EB60CF500AAD8CC /* SensorCell.m */; };
 		5917B7A11EB60E8900AAD8CC /* SensorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5917B7A01EB60E8900AAD8CC /* SensorViewController.m */; };
 		5917B7A41EB6131000AAD8CC /* AddSensorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5917B7A31EB6131000AAD8CC /* AddSensorViewController.m */; };
+		5917B7A71EB627FF00AAD8CC /* Storage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5917B7A61EB627FF00AAD8CC /* Storage.m */; };
 		594B171A1E9CE6E600ABB072 /* tempData.csv in Resources */ = {isa = PBXBuildFile; fileRef = 594B17191E9CE6E600ABB072 /* tempData.csv */; };
 		594B171C1E9CF58600ABB072 /* test.csv in Resources */ = {isa = PBXBuildFile; fileRef = 594B171B1E9CF58600ABB072 /* test.csv */; };
 		59CAB4591DDC89C600D25FA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CAB4581DDC89C600D25FA6 /* main.m */; };
 		59CAB45C1DDC89C600D25FA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CAB45B1DDC89C600D25FA6 /* AppDelegate.m */; };
-		59CAB45F1DDC89C600D25FA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CAB45E1DDC89C600D25FA6 /* ViewController.m */; };
+		59CAB45F1DDC89C600D25FA6 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CAB45E1DDC89C600D25FA6 /* DiscoverViewController.m */; };
 		59CAB4621DDC89C600D25FA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59CAB4601DDC89C600D25FA6 /* Main.storyboard */; };
 		59CAB4641DDC89C600D25FA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59CAB4631DDC89C600D25FA6 /* Assets.xcassets */; };
 		59CAB4671DDC89C600D25FA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59CAB4651DDC89C600D25FA6 /* LaunchScreen.storyboard */; };
@@ -56,6 +57,8 @@
 		5917B7A01EB60E8900AAD8CC /* SensorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SensorViewController.m; path = Assets.xcassets/SensorViewController.m; sourceTree = "<group>"; };
 		5917B7A21EB6131000AAD8CC /* AddSensorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSensorViewController.h; sourceTree = "<group>"; };
 		5917B7A31EB6131000AAD8CC /* AddSensorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSensorViewController.m; sourceTree = "<group>"; };
+		5917B7A51EB627FF00AAD8CC /* Storage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Storage.h; sourceTree = "<group>"; };
+		5917B7A61EB627FF00AAD8CC /* Storage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Storage.m; sourceTree = "<group>"; };
 		594B16FF1E9CCCC600ABB072 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		594B17191E9CE6E600ABB072 /* tempData.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = tempData.csv; path = ../../../python/tempData.csv; sourceTree = "<group>"; };
 		594B171B1E9CF58600ABB072 /* test.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = test.csv; path = ../../../python/test.csv; sourceTree = "<group>"; };
@@ -63,8 +66,8 @@
 		59CAB4581DDC89C600D25FA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		59CAB45A1DDC89C600D25FA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		59CAB45B1DDC89C600D25FA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		59CAB45D1DDC89C600D25FA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		59CAB45E1DDC89C600D25FA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		59CAB45D1DDC89C600D25FA6 /* DiscoverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		59CAB45E1DDC89C600D25FA6 /* DiscoverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
 		59CAB4611DDC89C600D25FA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		59CAB4631DDC89C600D25FA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59CAB4661DDC89C600D25FA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 			children = (
 				C3A600CA1EB5F736002D0736 /* Sensor.h */,
 				C3A600CB1EB5F736002D0736 /* Sensor.m */,
+				5917B7A51EB627FF00AAD8CC /* Storage.h */,
+				5917B7A61EB627FF00AAD8CC /* Storage.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -121,8 +126,8 @@
 		592E9B011E9E9EA0008F5CB1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				59CAB45D1DDC89C600D25FA6 /* ViewController.h */,
-				59CAB45E1DDC89C600D25FA6 /* ViewController.m */,
+				59CAB45D1DDC89C600D25FA6 /* DiscoverViewController.h */,
+				59CAB45E1DDC89C600D25FA6 /* DiscoverViewController.m */,
 				59EFB4F11DDCA64A00FCB54A /* AOPlotViewController.h */,
 				59EFB4F21DDCA64A00FCB54A /* AOPlotViewController.m */,
 				5917B79F1EB60E8900AAD8CC /* SensorViewController.h */,
@@ -383,12 +388,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5903156D1EB608C600BE0623 /* CHCSVParser.m in Sources */,
-				59CAB45F1DDC89C600D25FA6 /* ViewController.m in Sources */,
+				59CAB45F1DDC89C600D25FA6 /* DiscoverViewController.m in Sources */,
 				5917B7A11EB60E8900AAD8CC /* SensorViewController.m in Sources */,
 				59EFB4F31DDCA64A00FCB54A /* AOPlotViewController.m in Sources */,
 				5917B79B1EB60CF500AAD8CC /* SensorCell.m in Sources */,
 				59CAB45C1DDC89C600D25FA6 /* AppDelegate.m in Sources */,
 				5917B7A41EB6131000AAD8CC /* AddSensorViewController.m in Sources */,
+				5917B7A71EB627FF00AAD8CC /* Storage.m in Sources */,
 				59CAB4591DDC89C600D25FA6 /* main.m in Sources */,
 				C3A600CC1EB5F736002D0736 /* Sensor.m in Sources */,
 			);

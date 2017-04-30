@@ -7,6 +7,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -98,22 +99,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DVd-RH-AK7" customClass="MBXGraphAxisView">
-                                <rect key="frame" x="12" y="109" width="40" height="223"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="40" id="Qg7-9d-e4V"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AV4-1c-irm" customClass="MBXGraphAxisView">
-                                <rect key="frame" x="52" y="332" width="311" height="40"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="QAf-eU-rRa"/>
-                                </constraints>
-                            </view>
                             <segmentedControl opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="oJS-fY-rdC">
-                                <rect key="frame" x="32" y="380" width="311" height="29"/>
+                                <rect key="frame" x="16" y="79" width="343" height="29"/>
                                 <segments>
                                     <segment title="Train mode"/>
                                     <segment title="Prediction mode"/>
@@ -123,18 +110,18 @@
                                 </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10 records in dataset" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aIC-aW-WwO">
-                                <rect key="frame" x="16" y="497" width="343" height="21"/>
+                                <rect key="frame" x="107" y="400" width="161" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="isU-mc-ufF">
-                                <rect key="frame" x="112.5" y="416" width="150" height="50"/>
+                                <rect key="frame" x="16" y="561" width="343" height="49"/>
                                 <color key="backgroundColor" red="0.13492223619999999" green="0.50893032549999995" blue="0.56691390279999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="SSE-A3-znL"/>
-                                    <constraint firstAttribute="width" constant="150" id="pbG-Aw-tR1"/>
+                                    <constraint firstAttribute="height" constant="49" id="H34-as-Br0"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Generate Data">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -144,44 +131,39 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qQu-Fl-Nr9" customClass="MBXGraphView">
-                                <rect key="frame" x="52" y="109" width="311" height="223"/>
+                                <rect key="frame" x="36" y="122" width="303" height="250"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                             </view>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h1O-n0-8gp">
+                                <rect key="frame" x="16" y="492" width="343" height="54"/>
+                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="aIC-aW-WwO" firstAttribute="leading" secondItem="WcJ-Td-zjc" secondAttribute="leadingMargin" id="3aU-8K-xDc"/>
-                            <constraint firstAttribute="trailing" secondItem="qQu-Fl-Nr9" secondAttribute="trailing" constant="12" id="9y0-Ke-AeO"/>
-                            <constraint firstItem="oJS-fY-rdC" firstAttribute="leading" secondItem="WcJ-Td-zjc" secondAttribute="leadingMargin" constant="16" id="Cb3-KF-4je"/>
-                            <constraint firstItem="qQu-Fl-Nr9" firstAttribute="leading" secondItem="DVd-RH-AK7" secondAttribute="trailing" id="Dlf-6b-jiA"/>
-                            <constraint firstItem="oJS-fY-rdC" firstAttribute="centerX" secondItem="WcJ-Td-zjc" secondAttribute="centerX" id="E94-YO-1bX"/>
-                            <constraint firstItem="DVd-RH-AK7" firstAttribute="top" secondItem="qQu-Fl-Nr9" secondAttribute="top" id="JCO-03-c2K"/>
-                            <constraint firstItem="DVd-RH-AK7" firstAttribute="leading" secondItem="WcJ-Td-zjc" secondAttribute="leading" constant="12" id="LvP-Bf-9Ts"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="oJS-fY-rdC" secondAttribute="trailing" constant="16" id="NH7-4w-RMu"/>
-                            <constraint firstItem="AV4-1c-irm" firstAttribute="top" secondItem="qQu-Fl-Nr9" secondAttribute="bottom" id="NWf-Id-nHo"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="aIC-aW-WwO" secondAttribute="trailing" id="Sga-eF-vg4"/>
-                            <constraint firstItem="bwQ-MJ-Y3I" firstAttribute="top" secondItem="aIC-aW-WwO" secondAttribute="bottom" constant="100" id="bh1-jt-Sv5"/>
-                            <constraint firstItem="AV4-1c-irm" firstAttribute="top" secondItem="DVd-RH-AK7" secondAttribute="bottom" id="ct4-tW-4GF"/>
-                            <constraint firstItem="qQu-Fl-Nr9" firstAttribute="leading" secondItem="DVd-RH-AK7" secondAttribute="trailing" id="gxN-9S-mkW"/>
-                            <constraint firstItem="AV4-1c-irm" firstAttribute="leading" secondItem="DVd-RH-AK7" secondAttribute="trailing" id="hUK-q7-4Yc"/>
-                            <constraint firstItem="isU-mc-ufF" firstAttribute="centerX" secondItem="WcJ-Td-zjc" secondAttribute="centerX" id="hj6-x8-8cw"/>
-                            <constraint firstItem="isU-mc-ufF" firstAttribute="top" secondItem="oJS-fY-rdC" secondAttribute="bottom" constant="8" id="imW-3P-YHI"/>
-                            <constraint firstAttribute="trailing" secondItem="AV4-1c-irm" secondAttribute="trailing" constant="12" id="j5h-kT-XDj"/>
-                            <constraint firstItem="DVd-RH-AK7" firstAttribute="top" secondItem="Bao-xb-vkB" secondAttribute="bottom" constant="45" id="ldE-ML-m2h"/>
-                            <constraint firstItem="AV4-1c-irm" firstAttribute="top" secondItem="qQu-Fl-Nr9" secondAttribute="bottom" id="o0m-Kv-scR"/>
-                            <constraint firstItem="AV4-1c-irm" firstAttribute="leading" secondItem="WcJ-Td-zjc" secondAttribute="leading" constant="52" id="saJ-nf-SCm"/>
-                            <constraint firstItem="oJS-fY-rdC" firstAttribute="top" secondItem="AV4-1c-irm" secondAttribute="bottom" constant="8" id="uug-1W-tdl"/>
-                            <constraint firstItem="qQu-Fl-Nr9" firstAttribute="top" secondItem="Bao-xb-vkB" secondAttribute="bottom" constant="45" id="vjs-U8-wnB"/>
-                            <constraint firstItem="aIC-aW-WwO" firstAttribute="top" secondItem="isU-mc-ufF" secondAttribute="bottom" constant="31" id="ywG-UI-gri"/>
-                            <constraint firstItem="AV4-1c-irm" firstAttribute="trailing" secondItem="qQu-Fl-Nr9" secondAttribute="trailing" id="zHd-i2-07L"/>
+                            <constraint firstItem="oJS-fY-rdC" firstAttribute="top" secondItem="Bao-xb-vkB" secondAttribute="bottom" constant="15" id="4R9-7U-YPF"/>
+                            <constraint firstItem="qQu-Fl-Nr9" firstAttribute="leading" secondItem="WcJ-Td-zjc" secondAttribute="leadingMargin" constant="20" id="5KL-dd-glZ"/>
+                            <constraint firstItem="qQu-Fl-Nr9" firstAttribute="top" secondItem="oJS-fY-rdC" secondAttribute="bottom" constant="15" id="8Hz-uY-qou"/>
+                            <constraint firstItem="h1O-n0-8gp" firstAttribute="trailing" secondItem="WcJ-Td-zjc" secondAttribute="trailingMargin" id="FEf-X8-HYb"/>
+                            <constraint firstItem="isU-mc-ufF" firstAttribute="trailing" secondItem="WcJ-Td-zjc" secondAttribute="trailingMargin" id="HUa-LQ-DM1"/>
+                            <constraint firstItem="isU-mc-ufF" firstAttribute="leading" secondItem="WcJ-Td-zjc" secondAttribute="leadingMargin" id="JbD-by-9OT"/>
+                            <constraint firstItem="h1O-n0-8gp" firstAttribute="leading" secondItem="WcJ-Td-zjc" secondAttribute="leadingMargin" id="QhG-l4-aMa"/>
+                            <constraint firstItem="isU-mc-ufF" firstAttribute="top" secondItem="h1O-n0-8gp" secondAttribute="bottom" constant="15" id="R0t-Ad-X83"/>
+                            <constraint firstItem="oJS-fY-rdC" firstAttribute="leading" secondItem="WcJ-Td-zjc" secondAttribute="leadingMargin" id="diy-Pl-HwC"/>
+                            <constraint firstItem="h1O-n0-8gp" firstAttribute="height" secondItem="isU-mc-ufF" secondAttribute="height" multiplier="1.1" id="ktu-ev-zPp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="oJS-fY-rdC" secondAttribute="trailing" id="lLk-9x-iSB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qQu-Fl-Nr9" secondAttribute="trailing" constant="20" id="mDU-fA-iCh"/>
+                            <constraint firstItem="bwQ-MJ-Y3I" firstAttribute="top" secondItem="isU-mc-ufF" secondAttribute="bottom" constant="8" id="mvw-7Z-xWm"/>
+                            <constraint firstItem="aIC-aW-WwO" firstAttribute="centerX" secondItem="isU-mc-ufF" secondAttribute="centerX" id="t3C-nd-SBZ"/>
+                            <constraint firstAttribute="bottom" secondItem="aIC-aW-WwO" secondAttribute="bottom" constant="246" id="xdT-0s-0tE"/>
+                            <constraint firstItem="qQu-Fl-Nr9" firstAttribute="centerX" secondItem="WcJ-Td-zjc" secondAttribute="centerX" id="yOQ-v6-CoB"/>
+                            <constraint firstItem="aIC-aW-WwO" firstAttribute="top" secondItem="qQu-Fl-Nr9" secondAttribute="bottom" constant="28" id="zY7-aN-Ads"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Train Mode" id="iFl-6D-dh6"/>
                     <connections>
                         <outlet property="infoLabel" destination="aIC-aW-WwO" id="fse-YB-cdx"/>
+                        <outlet property="sensors" destination="h1O-n0-8gp" id="7zE-jh-ony"/>
                         <outlet property="viewGraph" destination="qQu-Fl-Nr9" id="gT6-iZ-raP"/>
-                        <outlet property="viewXAxis" destination="AV4-1c-irm" id="zDP-dX-SZe"/>
-                        <outlet property="viewYAxis" destination="DVd-RH-AK7" id="bIw-ML-F7m"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LRE-vk-I2A" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -344,7 +326,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Sensor Title" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="I1T-PF-A1w">
                                 <rect key="frame" x="16" y="209" width="343" height="30"/>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V4W-sm-0sM">
@@ -362,7 +344,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="49" id="kgn-fR-gpL"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Add Sensor">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>

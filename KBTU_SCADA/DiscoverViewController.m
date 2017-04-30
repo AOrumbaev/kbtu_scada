@@ -6,7 +6,7 @@
 //  Copyright © 2016 A_Orumbayev. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "DiscoverViewController.h"
 #import "KRMLP.h"
 #import "AOPlotViewController.h"
 #import "CHCSVParser.h"
@@ -14,14 +14,14 @@
 @import YCML;
 @import YCMatrix;
 
-@interface ViewController ()
+@interface DiscoverViewController ()
 @property (strong, nonatomic) IBOutlet UITextField *inputField;
 @property (weak, nonatomic) IBOutlet UITextView *statusTextView;
 
 @property (strong, nonatomic) KRMLP *mlp;
 @end
 
-@implementation ViewController
+@implementation DiscoverViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

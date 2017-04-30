@@ -10,28 +10,15 @@
 #import "AddSensorViewController.h"
 #import "Sensor.h"
 #import "SensorCell.h"
+#import "Storage.h"
 
 @interface SensorViewController () <UITableViewDelegate, UITableViewDataSource, AddSensorViewControllerDelegate>
 
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 
-@property (strong, nonatomic) NSMutableArray *sensorsArray;
-
 @end
 
 @implementation SensorViewController
-
-#pragma mark - Accessors
-
-- (NSMutableArray *)sensorsArray {
-    
-    if (!_sensorsArray) {
-        _sensorsArray = @[].mutableCopy;
-    }
-    
-    return _sensorsArray;
-    
-}
 
 #pragma mark - UIView
 
@@ -53,7 +40,7 @@
   
     SensorCell *cell = [tableView dequeueReusableCellWithIdentifier:@"sensorCell"];
     
-    Sensor *currentSensor = self.sensorsArray[indexPath.row];
+    Sensor *currentSensor = [Storage sharedInstance].sensorsArray[indexPath.row];
     
     cell.imageView.image = currentSensor.sensorImage;
     cell.titleLabel.text = currentSensor.title;
@@ -66,7 +53,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.sensorsArray.count;
+    return [Storage sharedInstance].sensorsArray.count;
 }
 
 - (IBAction)addBtnPressed:(UIBarButtonItem *)sender {
@@ -81,7 +68,7 @@
 
 - (void)didCreateSensor:(Sensor *)sensor {
     if (sensor) {
-        [self.sensorsArray addObject:sensor];
+        [[Storage sharedInstance].sensorsArray addObject:sensor];
         [self.tableView reloadData];
     }
 }

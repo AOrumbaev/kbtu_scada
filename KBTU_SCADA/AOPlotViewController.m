@@ -11,16 +11,19 @@
 #import "MBXGraphView.h"
 #import "MBXGraphAxisView.h"
 #import "Constants.h"
+#import "Sensor.h"
+#import "Storage.h"
 
 #import "MBXChartVM.h"
 
-@interface AOPlotViewController ()<MBXGraphDelegate, MBXGraphAxisDelegate>
+@interface AOPlotViewController ()<MBXGraphDelegate, MBXGraphAxisDelegate, UIPickerViewDelegate, UIPickerViewDataSource>
 @property (weak, nonatomic) IBOutlet MBXGraphView *viewGraph;
-@property (weak, nonatomic) IBOutlet MBXGraphAxisView *viewYAxis;
-@property (weak, nonatomic) IBOutlet MBXGraphAxisView *viewXAxis;
+@property (strong, nonatomic) MBXGraphAxisView *viewYAxis;
+@property (strong, nonatomic) MBXGraphAxisView *viewXAxis;
 @property (assign, nonatomic) BOOL trainingMode;
 @property (nonatomic, strong) MBXLineGraphDataSource *dataSourceNib;
 @property (strong, nonatomic) IBOutlet UILabel *infoLabel;
+@property (strong, nonatomic) IBOutlet UIPickerView *sensors;
 
 @end
 
@@ -46,6 +49,9 @@ static AOPlotViewController * sharedInstance = nil;
 {
     [super viewDidLoad];
     
+    self.viewXAxis = [[MBXGraphAxisView alloc] init];
+    self.viewYAxis = [[MBXGraphAxisView alloc] init];
+    
     // nib created graph
     self.viewGraph.dataSource = self.dataSourceNib;
     self.viewYAxis.dataSource = self.dataSourceNib;
@@ -57,7 +63,8 @@ static AOPlotViewController * sharedInstance = nil;
     self.viewGraph.delegate = self;
     self.viewXAxis.delegate = self;
     self.viewYAxis.delegate = self;
-    
+    [self.view addSubview:self.viewXAxis];
+    [self.view addSubview:self.viewYAxis];
     
     self.dataSourceNib.xAxisCalc = MBXLineGraphDataSourceAxisCalcValueTickmark | MBXLineGraphDataSourceAxisCalcValueDistribute;
     self.dataSourceNib.yAxisCalc = MBXLineGraphDataSourceAxisCalcAutoTickmark | MBXLineGraphDataSourceAxisCalcValueDistribute;
@@ -65,15 +72,28 @@ static AOPlotViewController * sharedInstance = nil;
     [self setRandomValuesForAllDataSources];
     _trainingMode = YES;
     
+    self.sensors.delegate = self;
+    self.sensors.dataSource = self;
+    
 }
 - (void)viewDidAppear:(BOOL)animated{
     [self reload];
-    
 }
+
+
 - (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation{
     [self reload];
 }
 
+
+- (void)updateViewConstraints {
+    
+    [super updateViewConstraints];
+    
+    self.viewXAxis.frame = CGRectMake(self.viewGraph.frame.origin.x, self.viewGraph.frame.origin.y + self.viewGraph.frame.size.height, self.viewGraph.frame.size.width, 30);
+    self.viewYAxis.frame = CGRectMake(self.viewGraph.frame.origin.x - 30, self.viewGraph.frame.origin.y, 30, self.viewGraph.frame.size.height);
+    
+}
 
 + (AOPlotViewController *)sharedInstance {
     
@@ -158,19 +178,12 @@ static AOPlotViewController * sharedInstance = nil;
     [self.viewGraph reload];
     [self.viewYAxis reload];
     [self.viewXAxis reload];
+    [self.sensors reloadAllComponents];
 }
 - (void) setRandomValuesForAllDataSources{
     [self setRandomValuesForDataSource:self.dataSourceNib];
 }
 - (void) setRandomValuesForDataSource:(MBXLineGraphDataSource *)dataSource{
-    //  NSArray *graphValues = @[
-    //                             @{@"y":[self rand], @"x": @125},
-    //                               @{@"y":[self rand], @"x": @250},
-    //                               @{@"y":[self rand], @"x": @500},
-    //                               @{@"y":[self rand], @"x": @1000},
-    //                               @{@"y":[self rand], @"x": @2000},
-    //                               @{@"y":[self rand], @"x": @4000},
-    //                             ];
     NSMutableArray *graphValues = @[].mutableCopy;
     
     for (int i = 0; i < 10; i++) {
@@ -226,4 +239,44 @@ static AOPlotViewController * sharedInstance = nil;
         _trainingMode = NO;
     }
 }
+
+#pragma mark - Picker Delegate
+
+- (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
+{
+    
+}
+
+- (CGFloat)pickerView:(UIPickerView *)pickerView widthForComponent:(NSInteger)component
+{
+    return 200;
+}
+
+- (CGFloat)pickerView:(UIPickerView *)pickerView rowHeightForComponent:(NSInteger)component
+{
+    return 50;
+}
+
+- (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component
+{
+    NSString *returnStr = @"";
+    if (pickerView == self.sensors)
+    {
+        Sensor *curSensor = [Storage sharedInstance].sensorsArray[row];
+        returnStr = curSensor.title;
+    }
+    
+    return returnStr;
+}
+
+- (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component
+{
+    return [[Storage sharedInstance].sensorsArray count];
+}
+
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView
+{
+    return 1;
+}
+
 @end
