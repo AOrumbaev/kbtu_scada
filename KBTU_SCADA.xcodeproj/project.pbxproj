@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		590315551EB6072F00BE0623 /* YCML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590315541EB6072F00BE0623 /* YCML.framework */; };
-		590315571EB6073200BE0623 /* YCMatrix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590315561EB6073200BE0623 /* YCMatrix.framework */; };
-		594B17121E9CCD5500ABB072 /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 594B17111E9CCD5500ABB072 /* CHCSVParser.m */; };
-		594B17181E9CD26600ABB072 /* housing.csv in Resources */ = {isa = PBXBuildFile; fileRef = 594B17171E9CD26600ABB072 /* housing.csv */; };
+		590315621EB6084C00BE0623 /* YCML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590315611EB6084C00BE0623 /* YCML.framework */; };
+		590315631EB6084C00BE0623 /* YCML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 590315611EB6084C00BE0623 /* YCML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		590315651EB6084C00BE0623 /* YCMatrix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590315641EB6084C00BE0623 /* YCMatrix.framework */; };
+		590315661EB6084C00BE0623 /* YCMatrix.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 590315641EB6084C00BE0623 /* YCMatrix.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5903156D1EB608C600BE0623 /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5903156C1EB608C600BE0623 /* CHCSVParser.m */; };
 		594B171A1E9CE6E600ABB072 /* tempData.csv in Resources */ = {isa = PBXBuildFile; fileRef = 594B17191E9CE6E600ABB072 /* tempData.csv */; };
 		594B171C1E9CF58600ABB072 /* test.csv in Resources */ = {isa = PBXBuildFile; fileRef = 594B171B1E9CF58600ABB072 /* test.csv */; };
 		59CAB4591DDC89C600D25FA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CAB4581DDC89C600D25FA6 /* main.m */; };
@@ -24,16 +25,28 @@
 		C9645DA9482FB38C7D48EB82 /* libPods-KBTU_SCADA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBFBBD56DD117A91F7CB432 /* libPods-KBTU_SCADA.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		590315671EB6084C00BE0623 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				590315631EB6084C00BE0623 /* YCML.framework in Embed Frameworks */,
+				590315661EB6084C00BE0623 /* YCMatrix.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1EBFBBD56DD117A91F7CB432 /* libPods-KBTU_SCADA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KBTU_SCADA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		590315541EB6072F00BE0623 /* YCML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YCML.framework; path = "YCML-master/build/Debug/YCML.framework"; sourceTree = "<group>"; };
-		590315561EB6073200BE0623 /* YCMatrix.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YCMatrix.framework; path = "YCML-master/build/Debug/YCMatrix.framework"; sourceTree = "<group>"; };
-		5944CB701E9CC0E0002BE42B /* YCMatrix.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YCMatrix.framework; path = "YCML-master/build/Debug/YCMatrix.framework"; sourceTree = "<group>"; };
-		5944CB711E9CC0E0002BE42B /* YCML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YCML.framework; path = "YCML-master/build/Debug/YCML.framework"; sourceTree = "<group>"; };
+		590315611EB6084C00BE0623 /* YCML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YCML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		590315641EB6084C00BE0623 /* YCMatrix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YCMatrix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5903156B1EB608C600BE0623 /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
+		5903156C1EB608C600BE0623 /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
 		594B16FF1E9CCCC600ABB072 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		594B17101E9CCD5500ABB072 /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = CHCSVParser.h; path = "../YCML-master/YCMLTests/CHCSVParser.h"; sourceTree = "<group>"; };
-		594B17111E9CCD5500ABB072 /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = CHCSVParser.m; path = "../YCML-master/YCMLTests/CHCSVParser.m"; sourceTree = "<group>"; };
-		594B17171E9CD26600ABB072 /* housing.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = housing.csv; path = "../YCML-master/YCMLTests/housing.csv"; sourceTree = "<group>"; };
 		594B17191E9CE6E600ABB072 /* tempData.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = tempData.csv; path = ../../../python/tempData.csv; sourceTree = "<group>"; };
 		594B171B1E9CF58600ABB072 /* test.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = test.csv; path = ../../../python/test.csv; sourceTree = "<group>"; };
 		59CAB4541DDC89C600D25FA6 /* KBTU_SCADA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KBTU_SCADA.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,9 +72,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				590315571EB6073200BE0623 /* YCMatrix.framework in Frameworks */,
-				590315551EB6072F00BE0623 /* YCML.framework in Frameworks */,
+				590315651EB6084C00BE0623 /* YCMatrix.framework in Frameworks */,
 				C9645DA9482FB38C7D48EB82 /* libPods-KBTU_SCADA.a in Frameworks */,
+				590315621EB6084C00BE0623 /* YCML.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +120,8 @@
 		59CAB44B1DDC89C600D25FA6 = {
 			isa = PBXGroup;
 			children = (
+				590315641EB6084C00BE0623 /* YCMatrix.framework */,
+				590315611EB6084C00BE0623 /* YCML.framework */,
 				59CAB4561DDC89C600D25FA6 /* KBTU_SCADA */,
 				59CAB4551DDC89C600D25FA6 /* Products */,
 				475CB06864CAC698C13CA170 /* Pods */,
@@ -142,11 +157,10 @@
 		59CAB4571DDC89C600D25FA6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				594B17101E9CCD5500ABB072 /* CHCSVParser.h */,
-				594B17111E9CCD5500ABB072 /* CHCSVParser.m */,
+				5903156B1EB608C600BE0623 /* CHCSVParser.h */,
+				5903156C1EB608C600BE0623 /* CHCSVParser.m */,
 				594B17191E9CE6E600ABB072 /* tempData.csv */,
 				594B171B1E9CF58600ABB072 /* test.csv */,
-				594B17171E9CD26600ABB072 /* housing.csv */,
 				59CAB4581DDC89C600D25FA6 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -155,11 +169,7 @@
 		5AA653BA9A4F927E7C175962 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				590315561EB6073200BE0623 /* YCMatrix.framework */,
-				590315541EB6072F00BE0623 /* YCML.framework */,
 				594B16FF1E9CCCC600ABB072 /* XCTest.framework */,
-				5944CB701E9CC0E0002BE42B /* YCMatrix.framework */,
-				5944CB711E9CC0E0002BE42B /* YCML.framework */,
 				1EBFBBD56DD117A91F7CB432 /* libPods-KBTU_SCADA.a */,
 			);
 			name = Frameworks;
@@ -182,6 +192,7 @@
 				0410936867A298A70E09A97C /* [CP] Copy Pods Resources */,
 				04BBE5479F5B39A1E570656A /* 📦 Embed Pods Frameworks */,
 				31BB5F8827566C0FEF84D55B /* 📦 Copy Pods Resources */,
+				590315671EB6084C00BE0623 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,7 +245,6 @@
 				594B171A1E9CE6E600ABB072 /* tempData.csv in Resources */,
 				59CAB4671DDC89C600D25FA6 /* LaunchScreen.storyboard in Resources */,
 				594B171C1E9CF58600ABB072 /* test.csv in Resources */,
-				594B17181E9CD26600ABB072 /* housing.csv in Resources */,
 				59CAB4641DDC89C600D25FA6 /* Assets.xcassets in Resources */,
 				59CAB4621DDC89C600D25FA6 /* Main.storyboard in Resources */,
 			);
@@ -355,10 +365,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5903156D1EB608C600BE0623 /* CHCSVParser.m in Sources */,
 				59CAB45F1DDC89C600D25FA6 /* ViewController.m in Sources */,
 				59EFB4F31DDCA64A00FCB54A /* AOPlotViewController.m in Sources */,
 				59CAB45C1DDC89C600D25FA6 /* AppDelegate.m in Sources */,
-				594B17121E9CCD5500ABB072 /* CHCSVParser.m in Sources */,
 				59CAB4591DDC89C600D25FA6 /* main.m in Sources */,
 				C3A600CC1EB5F736002D0736 /* Sensor.m in Sources */,
 			);
