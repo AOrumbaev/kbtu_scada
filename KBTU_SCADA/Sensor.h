@@ -7,10 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface Sensor : NSObject
 
 @property (nonatomic, copy) NSString *title;
+@property (nonatomic) UIImage *sensorImage;
 @property (nonatomic, strong) NSArray *dataset;
 
 - (instancetype)initWithTitle:(NSString *)title andDataset:(NSArray *)dataset;

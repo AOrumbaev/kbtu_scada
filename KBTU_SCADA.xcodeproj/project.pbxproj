@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		590315621EB6084C00BE0623 /* YCML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590315611EB6084C00BE0623 /* YCML.framework */; };
-		590315631EB6084C00BE0623 /* YCML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 590315611EB6084C00BE0623 /* YCML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		590315651EB6084C00BE0623 /* YCMatrix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590315641EB6084C00BE0623 /* YCMatrix.framework */; };
-		590315661EB6084C00BE0623 /* YCMatrix.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 590315641EB6084C00BE0623 /* YCMatrix.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5903156D1EB608C600BE0623 /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5903156C1EB608C600BE0623 /* CHCSVParser.m */; };
+		5917B7911EB6097600AAD8CC /* YCML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5917B7901EB6097600AAD8CC /* YCML.framework */; };
+		5917B7921EB6097600AAD8CC /* YCML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5917B7901EB6097600AAD8CC /* YCML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5917B7941EB6097600AAD8CC /* YCMatrix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5917B7931EB6097600AAD8CC /* YCMatrix.framework */; };
+		5917B7951EB6097600AAD8CC /* YCMatrix.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5917B7931EB6097600AAD8CC /* YCMatrix.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5917B79B1EB60CF500AAD8CC /* SensorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5917B79A1EB60CF500AAD8CC /* SensorCell.m */; };
+		5917B7A11EB60E8900AAD8CC /* SensorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5917B7A01EB60E8900AAD8CC /* SensorViewController.m */; };
+		5917B7A41EB6131000AAD8CC /* AddSensorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5917B7A31EB6131000AAD8CC /* AddSensorViewController.m */; };
 		594B171A1E9CE6E600ABB072 /* tempData.csv in Resources */ = {isa = PBXBuildFile; fileRef = 594B17191E9CE6E600ABB072 /* tempData.csv */; };
 		594B171C1E9CF58600ABB072 /* test.csv in Resources */ = {isa = PBXBuildFile; fileRef = 594B171B1E9CF58600ABB072 /* test.csv */; };
 		59CAB4591DDC89C600D25FA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CAB4581DDC89C600D25FA6 /* main.m */; };
@@ -32,8 +35,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				590315631EB6084C00BE0623 /* YCML.framework in Embed Frameworks */,
-				590315661EB6084C00BE0623 /* YCMatrix.framework in Embed Frameworks */,
+				5917B7921EB6097600AAD8CC /* YCML.framework in Embed Frameworks */,
+				5917B7951EB6097600AAD8CC /* YCMatrix.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,10 +45,17 @@
 
 /* Begin PBXFileReference section */
 		1EBFBBD56DD117A91F7CB432 /* libPods-KBTU_SCADA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KBTU_SCADA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		590315611EB6084C00BE0623 /* YCML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YCML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		590315641EB6084C00BE0623 /* YCMatrix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YCMatrix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5903156B1EB608C600BE0623 /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
 		5903156C1EB608C600BE0623 /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
+		5917B7901EB6097600AAD8CC /* YCML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YCML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5917B7931EB6097600AAD8CC /* YCMatrix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YCMatrix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5917B7961EB60A6B00AAD8CC /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		5917B7991EB60CF500AAD8CC /* SensorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensorCell.h; sourceTree = "<group>"; };
+		5917B79A1EB60CF500AAD8CC /* SensorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensorCell.m; sourceTree = "<group>"; };
+		5917B79F1EB60E8900AAD8CC /* SensorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SensorViewController.h; path = Assets.xcassets/SensorViewController.h; sourceTree = "<group>"; };
+		5917B7A01EB60E8900AAD8CC /* SensorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SensorViewController.m; path = Assets.xcassets/SensorViewController.m; sourceTree = "<group>"; };
+		5917B7A21EB6131000AAD8CC /* AddSensorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSensorViewController.h; sourceTree = "<group>"; };
+		5917B7A31EB6131000AAD8CC /* AddSensorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSensorViewController.m; sourceTree = "<group>"; };
 		594B16FF1E9CCCC600ABB072 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		594B17191E9CE6E600ABB072 /* tempData.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = tempData.csv; path = ../../../python/tempData.csv; sourceTree = "<group>"; };
 		594B171B1E9CF58600ABB072 /* test.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = test.csv; path = ../../../python/test.csv; sourceTree = "<group>"; };
@@ -72,9 +82,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				590315651EB6084C00BE0623 /* YCMatrix.framework in Frameworks */,
+				5917B7941EB6097600AAD8CC /* YCMatrix.framework in Frameworks */,
 				C9645DA9482FB38C7D48EB82 /* libPods-KBTU_SCADA.a in Frameworks */,
-				590315621EB6084C00BE0623 /* YCML.framework in Frameworks */,
+				5917B7911EB6097600AAD8CC /* YCML.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +112,8 @@
 		592E9B001E9E9E9C008F5CB1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5917B7991EB60CF500AAD8CC /* SensorCell.h */,
+				5917B79A1EB60CF500AAD8CC /* SensorCell.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -113,6 +125,10 @@
 				59CAB45E1DDC89C600D25FA6 /* ViewController.m */,
 				59EFB4F11DDCA64A00FCB54A /* AOPlotViewController.h */,
 				59EFB4F21DDCA64A00FCB54A /* AOPlotViewController.m */,
+				5917B79F1EB60E8900AAD8CC /* SensorViewController.h */,
+				5917B7A01EB60E8900AAD8CC /* SensorViewController.m */,
+				5917B7A21EB6131000AAD8CC /* AddSensorViewController.h */,
+				5917B7A31EB6131000AAD8CC /* AddSensorViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -120,8 +136,8 @@
 		59CAB44B1DDC89C600D25FA6 = {
 			isa = PBXGroup;
 			children = (
-				590315641EB6084C00BE0623 /* YCMatrix.framework */,
-				590315611EB6084C00BE0623 /* YCML.framework */,
+				5917B7931EB6097600AAD8CC /* YCMatrix.framework */,
+				5917B7901EB6097600AAD8CC /* YCML.framework */,
 				59CAB4561DDC89C600D25FA6 /* KBTU_SCADA */,
 				59CAB4551DDC89C600D25FA6 /* Products */,
 				475CB06864CAC698C13CA170 /* Pods */,
@@ -143,13 +159,13 @@
 				592E9AFF1E9E9E98008F5CB1 /* Models */,
 				592E9B001E9E9E9C008F5CB1 /* Views */,
 				592E9B011E9E9EA0008F5CB1 /* Controllers */,
+				59CAB4571DDC89C600D25FA6 /* Supporting Files */,
 				59CAB45A1DDC89C600D25FA6 /* AppDelegate.h */,
 				59CAB45B1DDC89C600D25FA6 /* AppDelegate.m */,
 				59CAB4601DDC89C600D25FA6 /* Main.storyboard */,
 				59CAB4631DDC89C600D25FA6 /* Assets.xcassets */,
 				59CAB4651DDC89C600D25FA6 /* LaunchScreen.storyboard */,
 				59CAB4681DDC89C600D25FA6 /* Info.plist */,
-				59CAB4571DDC89C600D25FA6 /* Supporting Files */,
 			);
 			path = KBTU_SCADA;
 			sourceTree = "<group>";
@@ -157,6 +173,7 @@
 		59CAB4571DDC89C600D25FA6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5917B7961EB60A6B00AAD8CC /* Constants.h */,
 				5903156B1EB608C600BE0623 /* CHCSVParser.h */,
 				5903156C1EB608C600BE0623 /* CHCSVParser.m */,
 				594B17191E9CE6E600ABB072 /* tempData.csv */,
@@ -367,8 +384,11 @@
 			files = (
 				5903156D1EB608C600BE0623 /* CHCSVParser.m in Sources */,
 				59CAB45F1DDC89C600D25FA6 /* ViewController.m in Sources */,
+				5917B7A11EB60E8900AAD8CC /* SensorViewController.m in Sources */,
 				59EFB4F31DDCA64A00FCB54A /* AOPlotViewController.m in Sources */,
+				5917B79B1EB60CF500AAD8CC /* SensorCell.m in Sources */,
 				59CAB45C1DDC89C600D25FA6 /* AppDelegate.m in Sources */,
+				5917B7A41EB6131000AAD8CC /* AddSensorViewController.m in Sources */,
 				59CAB4591DDC89C600D25FA6 /* main.m in Sources */,
 				C3A600CC1EB5F736002D0736 /* Sensor.m in Sources */,
 			);

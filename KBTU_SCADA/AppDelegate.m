@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "Constants.h"
+
 
 @interface AppDelegate ()
 
@@ -17,6 +19,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self.window setTintColor:UIColorFromRGB(0x228291)];
+    
     return YES;
 }
 

@@ -10,6 +10,7 @@
 #import "MBXLineGraphDataSource.h"
 #import "MBXGraphView.h"
 #import "MBXGraphAxisView.h"
+#import "Constants.h"
 
 #import "MBXChartVM.h"
 
@@ -93,7 +94,7 @@ static AOPlotViewController * sharedInstance = nil;
     if(graphView == self.viewGraph){
         graphVM.color = [UIColor greenColor];
         graphVM.drawingType =  MBXLineGraphDawingTypeLine | MBXLineGraphDawingTypeFill;
-        graphVM.fillColor = [UIColor redColor];
+        graphVM.fillColor = UIColorFromRGB(0x228291);
         graphVM.fillOpacity = 0.4;
         graphVM.priority = 1000;
     }else{
