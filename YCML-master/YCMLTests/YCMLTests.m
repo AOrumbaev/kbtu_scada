@@ -575,7 +575,6 @@
     trainer.settings[@"Alpha"]              = @0.5;
     
     [self testWithTrainer:trainer dataset:@"housing" dependentVariableLabel:@"MedV" rmse:6.0];
-    
 }
 
 - (void)testRPropHousing
