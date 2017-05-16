@@ -13,6 +13,8 @@
 
 @property (strong, nonatomic) IBOutlet UITextField *sensorTextField;
 @property (strong, nonatomic) IBOutlet UIImageView *sensorImageView;
+@property (strong, nonatomic) IBOutlet UIButton *attachDataset;
+@property (strong, nonatomic) IBOutlet UILabel *datasetLabel;
 
 @end
 
@@ -29,11 +31,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+}
 
 - (IBAction)addSensorBtnPressed:(id)sender {
 
     if (self.sensorTextField.text.length > 0 && self.sensorImageView.image) {
-    Sensor *newSensor = [[Sensor alloc] initWithTitle:self.sensorTextField.text andDataset:@[]];
+    AOSensor *newSensor = [[AOSensor alloc] initWithTitle:self.sensorTextField.text andDataset:@""];
         newSensor.sensorImage = self.sensorImageView.image;
         [self.delegate didCreateSensor:newSensor];
         [self.navigationController popViewControllerAnimated:YES];

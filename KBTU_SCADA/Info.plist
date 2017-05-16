@@ -4,6 +4,21 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>CSV Document</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>LSHandlerRank</key>
+			<string>Owner</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.aorumbayev.KBTU-SCADA.csv</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -20,38 +35,38 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Allow access to your library to select sensor images</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
-	<key>UIMainStoryboardFile</key>
-	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
 	</array>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Allow access to your library to select sensor images</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>CFBundleDocumentTypes</key>
+	<key>UTExportedTypeDeclarations</key>
 	<array>
 		<dict>
-			<key>CFBundleTypeName</key>
-			<string>CSV Document</string>
-			<key>CFBundleTypeIconFiles</key>
+			<key>UTTypeConformsTo</key>
 			<array>
-				<string>csvIcon.png</string>
-				<string>csvIcon.png</string>
+				<string>public.text</string>
 			</array>
-			<key>LSItemContentTypes</key>
-			<array>
-				<string>com.aorumbayev.KBTU-SCADA.csv</string>
-			</array>
-			<key>LSHandlerRank</key>
-			<string>Default</string>
+			<key>UTTypeDescription</key>
+			<string>XDXF - XML Dictionary eXchange Format</string>
+			<key>UTTypeIdentifier</key>
+			<string>com.aorumbayev.KBTU-SCADA.csv</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<string>csv</string>
+				<key>public.mime-type</key>
+				<string>text/xml</string>
+			</dict>
 		</dict>
 	</array>
 </dict>

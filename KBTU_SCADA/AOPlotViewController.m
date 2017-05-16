@@ -74,6 +74,8 @@ static AOPlotViewController * sharedInstance = nil;
     
     self.sensors.delegate = self;
     self.sensors.dataSource = self;
+
+    self.tabBarItem.image = [UIImage imageNamed:@"share-7"];
     
 }
 - (void)viewDidAppear:(BOOL)animated{
@@ -262,7 +264,7 @@ static AOPlotViewController * sharedInstance = nil;
     NSString *returnStr = @"";
     if (pickerView == self.sensors)
     {
-        Sensor *curSensor = [Storage sharedInstance].sensorsArray[row];
+        AOSensor *curSensor = [AOStorage sharedInstance].sensorsArray[row];
         returnStr = curSensor.title;
     }
     
@@ -271,7 +273,7 @@ static AOPlotViewController * sharedInstance = nil;
 
 - (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component
 {
-    return [[Storage sharedInstance].sensorsArray count];
+    return [[AOStorage sharedInstance].sensorsArray count];
 }
 
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView

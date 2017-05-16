@@ -1,5 +1,5 @@
 //
-//  Storage.m
+//  AOStorage.m
 //  KBTU_SCADA
 //
 //  Created by Altynbek Orumbayev on 30/04/2017.
@@ -8,14 +8,14 @@
 
 #import "AOStorage.h"
 
-@implementation Storage
+@implementation AOStorage
 
 + (instancetype)sharedInstance
 {
-    static Storage *sharedInstance = nil;
+    static AOStorage *sharedInstance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        sharedInstance = [[Storage alloc] init];
+        sharedInstance = [[AOStorage alloc] init];
         sharedInstance.sensorsArray = @[].mutableCopy;
         // Do any other initialisation stuff here
     });

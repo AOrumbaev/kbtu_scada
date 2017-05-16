@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DiscoverViewController : UIViewController
+@interface AODiscoverViewController : UIViewController
 
 
 @end

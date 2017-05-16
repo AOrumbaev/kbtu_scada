@@ -1,0 +1,6 @@
+framework module KRMLP {
+  umbrella header "KRMLP-umbrella.h"
+
+  export *
+  module * { export * }
+}

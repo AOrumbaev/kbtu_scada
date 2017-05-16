@@ -1,5 +1,5 @@
 //
-//  SensorCell.m
+//  AOSensorCell.m
 //  KBTU_SCADA
 //
 //  Created by Altynbek Orumbayev on 30/04/2017.
@@ -8,10 +8,10 @@
 
 #import "AOSensorCell.h"
 
-@interface SensorCell ()
+@interface AOSensorCell ()
 @end
 
-@implementation SensorCell
+@implementation AOSensorCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];

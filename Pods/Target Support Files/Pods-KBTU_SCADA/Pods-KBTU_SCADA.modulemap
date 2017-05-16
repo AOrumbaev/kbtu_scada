@@ -1,0 +1,6 @@
+framework module Pods_KBTU_SCADA {
+  umbrella header "Pods-KBTU_SCADA-umbrella.h"
+
+  export *
+  module * { export * }
+}

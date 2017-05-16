@@ -10,3 +10,7 @@
 #endif
 #endif
 
+
+FOUNDATION_EXPORT double Pods_KBTU_SCADAVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_KBTU_SCADAVersionString[];
+

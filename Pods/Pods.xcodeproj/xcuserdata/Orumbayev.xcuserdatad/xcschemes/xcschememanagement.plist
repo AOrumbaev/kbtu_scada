@@ -8,69 +8,41 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
 		</dict>
 		<key>MBXGraphs-MBXGraphs.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
 		</dict>
 		<key>MBXGraphs.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 		<key>Pods-KBTU_SCADA.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>4</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>667D20F9DD86D48ED4D5241A5412700F</key>
+		<key>1B2350B6558750EDF3B4DB15579B09BD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7A0D703E39642EE77131B5ADDC0F5237</key>
+		<key>38FEE84A1789B2E72A91CFFE2FE52910</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7D1D5EF8E30292C4F0CD8CC73E4FCBB6</key>
+		<key>A3DC924332CC970C1CBDF0651AB6244E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>ADEC536B93EB031886A281342DC2C781</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C46B12AC8BCB5A330C059A11ED190078</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DF833F834558F97A976FEF1459D482EB</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>EA9517F2D13159A4A2BFB036BD846049</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA2EDFBD167B7985D008619F22D6E99E</key>
+		<key>A3DF35E448635CEFE889FA7232310F8C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

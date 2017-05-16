@@ -1,2938 +1,1043 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>00A8E7968486F2FC99B5E0482C08EF62</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>KRMLPHiddenNet.h</string>
-			<key>path</key>
-			<string>ML/Nets/KRMLPHiddenNet/KRMLPHiddenNet.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>018F873C420CFD581C5BB4B55BA55062</key>
-		<dict>
-			<key>fileRef</key>
-			<string>246F9245D04D8D75CEEBC577EBE31B39</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>022A7404478B0485EA2906AA5F791DF3</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>116210F17EC65D701FAFB72B74265338</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/MBXGraphs/MBXGraphs-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>039C61CD92096BA6C1FDD27E143E5CB6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-KBTU_SCADA-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>040086CBF5F366F4B6FAF9073FA34B94</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>KRMLPFetcher.m</string>
-			<key>path</key>
-			<string>ML/Trained/KRMLPFetcher.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>05867613D6D2153079CA1711AB0163B4</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>116210F17EC65D701FAFB72B74265338</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CONFIGURATION_BUILD_DIR</key>
-				<string>$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MBXGraphs</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/MBXGraphs/ResourceBundle-MBXGraphs-Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>PRODUCT_NAME</key>
-				<string>MBXGraphs</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>09DCE0E1C9CBFC57811444500E19FD52</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>KRMLPNet.m</string>
-			<key>path</key>
-			<string>ML/Nets/KRMLPNet.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0A25DBECE55F7365A234D07E351682D7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MBXGraphDataUtils.m</string>
-			<key>path</key>
-			<string>Pod/Classes/Utils/MBXGraphDataUtils.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0A68FE8A6158D395EC4CB10F8472F165</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B4CCDF0ACEE37ED4308724E62FCDE939</string>
-				<string>3C9854452B704969D40D932335DEE0FF</string>
-				<string>0F2331BAF78D4EDDCD400CF6388C7978</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0B01CF6B995096FD643C77305CDB5B96</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>KRMLPInputLayer.m</string>
-			<key>path</key>
-			<string>ML/Layers/KRMLPInputLayer/KRMLPInputLayer.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0C14A14880D0D32671792AFE982B9268</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>7A0D703E39642EE77131B5ADDC0F5237</string>
-			<key>remoteInfo</key>
-			<string>KRMLP</string>
-		</dict>
-		<key>0C7FA8A009CA1301D4D42A65871D1095</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>MBXGraphs.bundle</string>
-			<key>path</key>
-			<string>MBXGraphs.bundle</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>0D17BCB7FC7DB9917A1F0C3BAC9FAF48</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MBXGraphView.h</string>
-			<key>path</key>
-			<string>Pod/Classes/Views/MBXGraphView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0F2331BAF78D4EDDCD400CF6388C7978</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>10250F387B4EAFAA6CA5BA18B5E2C14A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>MBXGraphs</string>
-			<key>target</key>
-			<string>DF833F834558F97A976FEF1459D482EB</string>
-			<key>targetProxy</key>
-			<string>8EDF42DBB359A08BD82950765B1E8517</string>
-		</dict>
-		<key>116210F17EC65D701FAFB72B74265338</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>MBXGraphs.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>122DA2E5084A4393C29BE363C764795C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0A68FE8A6158D395EC4CB10F8472F165</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>125B11938A50915E28D2E4519B3345D1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>KRMLPOutputLayer.m</string>
-			<key>path</key>
-			<string>ML/Layers/KRMLPOutputLayer/KRMLPOutputLayer.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>15314E5565A982BC60F2FE6D45D87071</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B57161D1EF8B930931C365507475B1F9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>160C222FDE82F0F707AE753E4BDEF8F4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9F2C2D3A00FF39AA8CF7F78FAC91B0DE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>16255E5CD9F782B6B545663D7BCFE11A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>KRMLPResult.h</string>
-			<key>path</key>
-			<string>ML/Outputs/KRMLPResult.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>165F264F08160C4CCAD61440B30D4254</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A36048E14AD9C58DDD8D3212EBACAF34</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>1F3665E03EF0B1137506CB555A50A8F5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7F088D75893488AD1BFA3747EEC7970D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>20094C6EB176496A1CC67DC6B72A1783</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4311759733B1639F6AE278C2A195C35D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>20BEAC752EF23BEE59EAFC40F538F7FE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MBXGraphs-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>23005803666D6361B3E3D1E7D5CBC706</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>KRMLPHiddenLayer.h</string>
-			<key>path</key>
-			<string>ML/Layers/KRMLPHiddenLayer/KRMLPHiddenLayer.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>246F9245D04D8D75CEEBC577EBE31B39</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>KRMLPLayer.h</string>
-			<key>path</key>
-			<string>ML/Layers/KRMLPLayer.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>261B12FCDE9413F72AE04DFD146F6FA3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CFF56A6B0AF868B7CEC829D3F9FF57CD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2625184DCB74836E2C4C083380479F85</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>71058AFD49FB042572E9FA04CFE1B1E0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>27AEBDFB2BA0FA43ACA2EA35D49AC130</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC8B41308805A47902419419501FAE9B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>28A022DDAE2AC2D40BBC0222E264E51E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>BDF503866B0CA16C1C9B8431A41FF98B</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/KRMLP/KRMLP-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>29B581B24495F2B408F96D377C3EDCF7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>KRMLPNetworkOutput.h</string>
-			<key>path</key>
-			<string>ML/Outputs/KRMLPNetworkOutput.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AE95D6732ABE8A7E04130986741AE41</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6096E7B7AB8A4975D5369FE1ED48FB12</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>2B773494BB2AB6A0C3CB60DA95D7D1FF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MBXGraphVM.h</string>
-			<key>path</key>
-			<string>Pod/Classes/ViewModel/MBXGraphVM.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>F1CACC81189ECB1BB82CE47F73EBE3D1</string>
-				<string>D560687C2EAA7604298B56AEE78343D9</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>30CD23E3D4C4D3DB27FCDCA4696121BC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DD43F2357E5C5A1E27EB1E2C53F8D328</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>32839FEEC8EC7C46C133FB624C0EE5A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3FB3801E4BFC19F66DE24F5E406E0EC0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3367D3B9FC99E96A30FA63EE70295492</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E021ADD7CDB6D4703DAA5955EAA1E3CA</string>
-				<string>BC2BA739D1B64264E8BC020A33678C7C</string>
-				<string>3EB21631159744266B3EC9F2D4489BE1</string>
-				<string>160C222FDE82F0F707AE753E4BDEF8F4</string>
-				<string>D0165B48AD67DACD88CCA798C8B7EE00</string>
-				<string>6FBD8D90F8816BBF19FB9360EC7E4C22</string>
-				<string>ACACDB3AA763EC55A226E4400BC9212E</string>
-				<string>3FC490D5BC0F5C4DF0A447126CA98751</string>
-				<string>F08040479A3BF7FD51D361FB6DAA3A12</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>373FBDAB53BED7BE41BB640199B20A62</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EF8542B0BC06BAA68A56E8D1ACFC9047</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>377B811F7A75FA833A0F11081CBAE644</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>KRMLPCost.m</string>
-			<key>path</key>
-			<string>ML/Layers/KRMLPOutputLayer/KRMLPCost.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>37B2CD6061A771E2BF76F26A03FAADBA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7066F1C93CE952BF3D3E9EC44C72A608</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>3840AD365AFAB964411768BDBD8CFAAE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E8A64D63BE6B233ECA4046F6D3D0D19</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>38F49FEB378ED2B6F8EE14E3EB0CB0AA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0A25DBECE55F7365A234D07E351682D7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3C9854452B704969D40D932335DEE0FF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>3E0C6367B657C9E093BE6B0A81AE6814</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EC1C2D341B72D4A69F449EB994374B2A</string>
-				<string>78705A7FA0CCFF561C17F8CCE0D546D3</string>
-				<string>5B24142F246F464ABACB3E482CC069A5</string>
-				<string>53A6FB1B631937EC09AD1BA6BFE00D9F</string>
-				<string>5FFEB48B39279383341DAACDC0E2889A</string>
-				<string>7F088D75893488AD1BFA3747EEC7970D</string>
-				<string>9F2C2D3A00FF39AA8CF7F78FAC91B0DE</string>
-				<string>4CBB5D4DAB5AA50B9321B28F923AEAD6</string>
-				<string>0A25DBECE55F7365A234D07E351682D7</string>
-				<string>0D17BCB7FC7DB9917A1F0C3BAC9FAF48</string>
-				<string>64F850C3C1C621A0A02601E0FAB6ABB2</string>
-				<string>2B773494BB2AB6A0C3CB60DA95D7D1FF</string>
-				<string>923DC361A5DF304F585A3DF9FAEB7566</string>
-				<string>F42EE60B4B685D5A23D4C7770A597573</string>
-				<string>A258D1314E350C441A1914825532B656</string>
-				<string>80A37451F19F638C3E4FC480D58A5AAF</string>
-				<string>C4CA604FF74D0185EFB719F06962D53E</string>
-				<string>E1A9091AF18E70EA7D8DC5744CAE9A2E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>MBXGraphs</string>
-			<key>path</key>
-			<string>MBXGraphs</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3EB21631159744266B3EC9F2D4489BE1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5FFEB48B39279383341DAACDC0E2889A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>3EDA7904249BCB998A47E5D3F351E62D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>78705A7FA0CCFF561C17F8CCE0D546D3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3FB3801E4BFC19F66DE24F5E406E0EC0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>KRMLPPattern.m</string>
-			<key>path</key>
-			<string>ML/Patterns/KRMLPPattern.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3FC490D5BC0F5C4DF0A447126CA98751</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F42EE60B4B685D5A23D4C7770A597573</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>4311759733B1639F6AE278C2A195C35D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>KRMLPActivation.h</string>
-			<key>path</key>
-			<string>ML/Activations/KRMLPActivation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>44BB27A93FD2B3BF76150B38DC158AAC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AC60BD77B26D140A3328A8D99F73172F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4896816B7D4FDB0BE2AB495F576AA93B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>00A8E7968486F2FC99B5E0482C08EF62</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>4920C70D7B76E960CB071FF62EFF55A7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D4F6981CBBE889B83DE7C6D787BD1EAF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>49642776D33ACE1E07E3FF79A1E2AE36</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6766EB8B95584812A554A1B75B9EA696</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>4BE97B72CAE99DAEED3A94250E3417FA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>039C61CD92096BA6C1FDD27E143E5CB6</string>
-				<string>7D6932FBF9BF17AEC8C30B9EB3937EEB</string>
-				<string>8C048093C2EFE0C3A9CABFF711D756F4</string>
-				<string>A8535C3C0E4DDB72AB74ACA994A58BB6</string>
-				<string>D0BE2BE107E792CD1CA4C27E37F97894</string>
-				<string>BB1F616EE9FE460CF61E4F95B5C62047</string>
-				<string>85901B4D8F193DCBCC3EFB7858A67102</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-KBTU_SCADA</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-KBTU_SCADA</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4C7E26BA5F04911B7BFB3DE24610517F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>990AD296A1571D782A79B66F30AFF7F3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4CBB5D4DAB5AA50B9321B28F923AEAD6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MBXGraphDataUtils.h</string>
-			<key>path</key>
-			<string>Pod/Classes/Utils/MBXGraphDataUtils.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D3D52292072E4EFC2CEBE5ECACE4E33</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CBB148B643DFFD7933DB12CD5F6489BA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>4E8A64D63BE6B233ECA4046F6D3D0D19</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>KRMLPLayer.m</string>
-			<key>path</key>
-			<string>ML/Layers/KRMLPLayer.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>525146127EB7C054117271D81A71AC4A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>85EDCACD94EB0426CD6670EBF034B038</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>52BECA192E117E7A03AA0F3A528CD03E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>52FC445141ED11F7A31BB228B492E362</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>KRMLPResult.m</string>
-			<key>path</key>
-			<string>ML/Outputs/KRMLPResult.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>53A6FB1B631937EC09AD1BA6BFE00D9F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MBXChartVM.m</string>
-			<key>path</key>
-			<string>Pod/Classes/ViewModel/MBXChartVM.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>57C47EFFF395DE42E7416EEBD2A2ED14</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>KRMLPInputLayer.h</string>
-			<key>path</key>
-			<string>ML/Layers/KRMLPInputLayer/KRMLPInputLayer.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>596ADA640BD6B83A4BF4F8C7E2BE2872</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8CC2BE6B643C5C17D3F4BB7B05789336</string>
-				<string>3E0C6367B657C9E093BE6B0A81AE6814</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5A11CAD5B8DEC6B9255A7F409C9D4413</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>05867613D6D2153079CA1711AB0163B4</string>
-				<string>A505C1A04B9C905DA7998DC83A255E20</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>5A7445FC3F3028ACE97E2F9ECB3DA3F2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MBXGraphs-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5B24142F246F464ABACB3E482CC069A5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MBXChartVM.h</string>
-			<key>path</key>
-			<string>Pod/Classes/ViewModel/MBXChartVM.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5C71C413C430519B0C4DE3766EF80650</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FDEFF32A999DE15DE581BA949DF698BC</string>
-				<string>4920C70D7B76E960CB071FF62EFF55A7</string>
-				<string>261B12FCDE9413F72AE04DFD146F6FA3</string>
-				<string>9F7D04115B43DB12CAC41883DE6CBF41</string>
-				<string>DAE772E82FFE8EB9E4C8E2500026B464</string>
-				<string>F6027BF385341BA797255309E9DA9BE2</string>
-				<string>C94A95D00B493B95C1AFDA6D1A89D8BF</string>
-				<string>4C7E26BA5F04911B7BFB3DE24610517F</string>
-				<string>D7D5DAD5885CE514EAE029359647E3BB</string>
-				<string>D5CAD49BB6F949832B0E53DBAC46EE86</string>
-				<string>3840AD365AFAB964411768BDBD8CFAAE</string>
-				<string>AD39CC5B5F57A586761CA894BDAA1CDE</string>
-				<string>44BB27A93FD2B3BF76150B38DC158AAC</string>
-				<string>C9661AEB7018012CABDAD6204F8F8976</string>
-				<string>E3C7B932091260C42102744A50369221</string>
-				<string>DC11991A366F189352ADAF2021814070</string>
-				<string>30CD23E3D4C4D3DB27FCDCA4696121BC</string>
-				<string>32839FEEC8EC7C46C133FB624C0EE5A5</string>
-				<string>A7E7752FE18646434D3D5663FE1B4A34</string>
-				<string>27AEBDFB2BA0FA43ACA2EA35D49AC130</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5C95044AD77B3A67E98EA87AE773998D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3C9854452B704969D40D932335DEE0FF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5D4D25DF1DC3E49690825275397A09B5</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libKRMLP.a</string>
-			<key>path</key>
-			<string>libKRMLP.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>5FE4E9101F209C4CFBC20CBC2C339A6C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>856315D864FD2EACE5C29070FEFCB4E9</string>
-				<string>28A022DDAE2AC2D40BBC0222E264E51E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>5FFEB48B39279383341DAACDC0E2889A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MBXGraphAxisView.h</string>
-			<key>path</key>
-			<string>Pod/Classes/Views/MBXGraphAxisView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6096E7B7AB8A4975D5369FE1ED48FB12</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>KRMLPOutputLayer.h</string>
-			<key>path</key>
-			<string>ML/Layers/KRMLPOutputLayer/KRMLPOutputLayer.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>60E61C8EA0762C04EE6240462D02A68B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>69EA1B149AE952CAE48D0896DAFCE290</string>
-				<string>975AC7CB34DA327B652010118A32EA70</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>64F850C3C1C621A0A02601E0FAB6ABB2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MBXGraphView.m</string>
-			<key>path</key>
-			<string>Pod/Classes/Views/MBXGraphView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>656EC9BD8AFF2D2E9FB7B8C5C4A21BA2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>KRMLPHiddenLayer.m</string>
-			<key>path</key>
-			<string>ML/Layers/KRMLPHiddenLayer/KRMLPHiddenLayer.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6766EB8B95584812A554A1B75B9EA696</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>KRMLP.h</string>
-			<key>path</key>
-			<string>ML/KRMLP.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>687836E5D8BCCE426FDFFA623DB559C3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B337445F380E33E43D99FA2435D88840</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>69EA1B149AE952CAE48D0896DAFCE290</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>BB1F616EE9FE460CF61E4F95B5C62047</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.1</string>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>6C2102042C0D4BF27122E05F6CC1A209</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>KRMLPNet.h</string>
-			<key>path</key>
-			<string>ML/Nets/KRMLPNet.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6FA85887053EF21ECCACEEA934FE06F8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>KRMLPInertia.m</string>
-			<key>path</key>
-			<string>ML/Optimizations/Inertia/KRMLPInertia.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6FBD8D90F8816BBF19FB9360EC7E4C22</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0D17BCB7FC7DB9917A1F0C3BAC9FAF48</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>7066F1C93CE952BF3D3E9EC44C72A608</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>KRMLPOptimization.h</string>
-			<key>path</key>
-			<string>ML/Optimizations/KRMLPOptimization.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>71058AFD49FB042572E9FA04CFE1B1E0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3C9854452B704969D40D932335DEE0FF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>71C0435FFEBD597467F5E708EF0C96C9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>71D136DB04BF84D569E38891C3729D15</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0F2331BAF78D4EDDCD400CF6388C7978</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7218C03CD437A5A375B9779DA6B4869F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6C2102042C0D4BF27122E05F6CC1A209</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>7310AF6FBFFC9451B56A2AC8C5537531</key>
-		<dict>
-			<key>fileRef</key>
-			<string>23005803666D6361B3E3D1E7D5CBC706</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>75B88442F47D844F62A942065F738763</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libMBXGraphs.a</string>
-			<key>path</key>
-			<string>libMBXGraphs.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>763E8B88500EF3D91649A8F90E00C380</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5A7445FC3F3028ACE97E2F9ECB3DA3F2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>77C8519818241BD3B55C0E9E24CC3629</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>KRMLPOptimization.m</string>
-			<key>path</key>
-			<string>ML/Optimizations/KRMLPOptimization.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>78405F3DA3BF13BA7B4A4B2AE959ECD3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>ResourceBundle-MBXGraphs-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>78705A7FA0CCFF561C17F8CCE0D546D3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MBXAxisVM.m</string>
-			<key>path</key>
-			<string>Pod/Classes/ViewModel/MBXAxisVM.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7A0D703E39642EE77131B5ADDC0F5237</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>5FE4E9101F209C4CFBC20CBC2C339A6C</string>
-			<key>buildPhases</key>
-			<array>
-				<string>5C71C413C430519B0C4DE3766EF80650</string>
-				<string>F50542AB7555F1C9F391D4211150F3F1</string>
-				<string>85594C4A933800CB37BC7D0E6487723B</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>KRMLP</string>
-			<key>productName</key>
-			<string>KRMLP</string>
-			<key>productReference</key>
-			<string>5D4D25DF1DC3E49690825275397A09B5</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>7C451EF45BBDA997196C47B8B730B273</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>KRMLPCost.h</string>
-			<key>path</key>
-			<string>ML/Layers/KRMLPOutputLayer/KRMLPCost.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D6932FBF9BF17AEC8C30B9EB3937EEB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-KBTU_SCADA-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>93A4A3777CF96A4AAC1D13BA6DCCEA73</string>
-				<string>122DA2E5084A4393C29BE363C764795C</string>
-				<string>596ADA640BD6B83A4BF4F8C7E2BE2872</string>
-				<string>7F5DAE15A776D4E40EADD51C57E5FE4A</string>
-				<string>E2095FB2B25C3DABCEDA73C19330E06E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7F088D75893488AD1BFA3747EEC7970D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MBXGraphAxisView.m</string>
-			<key>path</key>
-			<string>Pod/Classes/Views/MBXGraphAxisView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7F5DAE15A776D4E40EADD51C57E5FE4A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5D4D25DF1DC3E49690825275397A09B5</string>
-				<string>75B88442F47D844F62A942065F738763</string>
-				<string>BA289EF8339B2F763B59725F84728B17</string>
-				<string>0C7FA8A009CA1301D4D42A65871D1095</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>80A37451F19F638C3E4FC480D58A5AAF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MBXNumberUtils.h</string>
-			<key>path</key>
-			<string>Pod/Classes/Utils/MBXNumberUtils.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>85594C4A933800CB37BC7D0E6487723B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>373FBDAB53BED7BE41BB640199B20A62</string>
-				<string>49642776D33ACE1E07E3FF79A1E2AE36</string>
-				<string>20094C6EB176496A1CC67DC6B72A1783</string>
-				<string>ACB124FFC51ECC3993AB3636C4433796</string>
-				<string>687836E5D8BCCE426FDFFA623DB559C3</string>
-				<string>7310AF6FBFFC9451B56A2AC8C5537531</string>
-				<string>4896816B7D4FDB0BE2AB495F576AA93B</string>
-				<string>525146127EB7C054117271D81A71AC4A</string>
-				<string>DFB28A4AD26CA08AD7A004210BD2B6BF</string>
-				<string>018F873C420CFD581C5BB4B55BA55062</string>
-				<string>7218C03CD437A5A375B9779DA6B4869F</string>
-				<string>BBF2F21F1E6C745F6FE32016C163A200</string>
-				<string>37B2CD6061A771E2BF76F26A03FAADBA</string>
-				<string>2AE95D6732ABE8A7E04130986741AE41</string>
-				<string>15314E5565A982BC60F2FE6D45D87071</string>
-				<string>DE2D98574F774C5543822DEE8634F236</string>
-				<string>4D3D52292072E4EFC2CEBE5ECACE4E33</string>
-				<string>8CECF307FE1DB4780A3D0DDB1B29EFC7</string>
-				<string>EDC298A0984CE8B2E4801CBB025C7EC6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>856315D864FD2EACE5C29070FEFCB4E9</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>BDF503866B0CA16C1C9B8431A41FF98B</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/KRMLP/KRMLP-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>85901B4D8F193DCBCC3EFB7858A67102</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-KBTU_SCADA.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>85EDCACD94EB0426CD6670EBF034B038</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>KRMLPInertia.h</string>
-			<key>path</key>
-			<string>ML/Optimizations/Inertia/KRMLPInertia.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8C048093C2EFE0C3A9CABFF711D756F4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-KBTU_SCADA-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8CC2BE6B643C5C17D3F4BB7B05789336</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EF8542B0BC06BAA68A56E8D1ACFC9047</string>
-				<string>935D5109A4CC69B326BC6A1367CA6417</string>
-				<string>6766EB8B95584812A554A1B75B9EA696</string>
-				<string>CFF56A6B0AF868B7CEC829D3F9FF57CD</string>
-				<string>4311759733B1639F6AE278C2A195C35D</string>
-				<string>CA06A1637850447CEDD115D22C78EBAA</string>
-				<string>7C451EF45BBDA997196C47B8B730B273</string>
-				<string>377B811F7A75FA833A0F11081CBAE644</string>
-				<string>B337445F380E33E43D99FA2435D88840</string>
-				<string>040086CBF5F366F4B6FAF9073FA34B94</string>
-				<string>23005803666D6361B3E3D1E7D5CBC706</string>
-				<string>656EC9BD8AFF2D2E9FB7B8C5C4A21BA2</string>
-				<string>00A8E7968486F2FC99B5E0482C08EF62</string>
-				<string>990AD296A1571D782A79B66F30AFF7F3</string>
-				<string>85EDCACD94EB0426CD6670EBF034B038</string>
-				<string>6FA85887053EF21ECCACEEA934FE06F8</string>
-				<string>57C47EFFF395DE42E7416EEBD2A2ED14</string>
-				<string>0B01CF6B995096FD643C77305CDB5B96</string>
-				<string>246F9245D04D8D75CEEBC577EBE31B39</string>
-				<string>4E8A64D63BE6B233ECA4046F6D3D0D19</string>
-				<string>6C2102042C0D4BF27122E05F6CC1A209</string>
-				<string>09DCE0E1C9CBFC57811444500E19FD52</string>
-				<string>29B581B24495F2B408F96D377C3EDCF7</string>
-				<string>AC60BD77B26D140A3328A8D99F73172F</string>
-				<string>7066F1C93CE952BF3D3E9EC44C72A608</string>
-				<string>77C8519818241BD3B55C0E9E24CC3629</string>
-				<string>6096E7B7AB8A4975D5369FE1ED48FB12</string>
-				<string>125B11938A50915E28D2E4519B3345D1</string>
-				<string>B57161D1EF8B930931C365507475B1F9</string>
-				<string>91A57DF767DD536715CEA01B603F0C59</string>
-				<string>F7FB802085B5051D768B610E864139BD</string>
-				<string>DD43F2357E5C5A1E27EB1E2C53F8D328</string>
-				<string>CBB148B643DFFD7933DB12CD5F6489BA</string>
-				<string>3FB3801E4BFC19F66DE24F5E406E0EC0</string>
-				<string>16255E5CD9F782B6B545663D7BCFE11A</string>
-				<string>52FC445141ED11F7A31BB228B492E362</string>
-				<string>C6689CBA8CEF09BE790202E941242030</string>
-				<string>DC8B41308805A47902419419501FAE9B</string>
-				<string>90078C741C54538D3868124B968C34CF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>KRMLP</string>
-			<key>path</key>
-			<string>KRMLP</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8CECF307FE1DB4780A3D0DDB1B29EFC7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>16255E5CD9F782B6B545663D7BCFE11A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>8EDF42DBB359A08BD82950765B1E8517</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>DF833F834558F97A976FEF1459D482EB</string>
-			<key>remoteInfo</key>
-			<string>MBXGraphs</string>
-		</dict>
-		<key>90078C741C54538D3868124B968C34CF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BDF503866B0CA16C1C9B8431A41FF98B</string>
-				<string>D4F6981CBBE889B83DE7C6D787BD1EAF</string>
-				<string>902096404593B8F1945C7699CCB40C5B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/KRMLP</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>902096404593B8F1945C7699CCB40C5B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>KRMLP-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>91A57DF767DD536715CEA01B603F0C59</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>KRMLPOutputNet.m</string>
-			<key>path</key>
-			<string>ML/Nets/KRMLPOutputNet/KRMLPOutputNet.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>923DC361A5DF304F585A3DF9FAEB7566</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MBXGraphVM.m</string>
-			<key>path</key>
-			<string>Pod/Classes/ViewModel/MBXGraphVM.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>935D5109A4CC69B326BC6A1367CA6417</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>KRMathLib.m</string>
-			<key>path</key>
-			<string>ML/Utilities/KRMathLib/KRMathLib.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>93A4A3777CF96A4AAC1D13BA6DCCEA73</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>text.script.ruby</string>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>975AC7CB34DA327B652010118A32EA70</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>85901B4D8F193DCBCC3EFB7858A67102</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.1</string>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>990AD296A1571D782A79B66F30AFF7F3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>KRMLPHiddenNet.m</string>
-			<key>path</key>
-			<string>ML/Nets/KRMLPHiddenNet/KRMLPHiddenNet.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9F2C2D3A00FF39AA8CF7F78FAC91B0DE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MBXGraphDataSource.h</string>
-			<key>path</key>
-			<string>Pod/Classes/DataSource/MBXGraphDataSource.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9F7D04115B43DB12CAC41883DE6CBF41</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CA06A1637850447CEDD115D22C78EBAA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A258D1314E350C441A1914825532B656</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MBXLineGraphDataSource.m</string>
-			<key>path</key>
-			<string>Pod/Classes/DataSource/MBXLineGraphDataSource.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A36048E14AD9C58DDD8D3212EBACAF34</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8C048093C2EFE0C3A9CABFF711D756F4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A505C1A04B9C905DA7998DC83A255E20</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>116210F17EC65D701FAFB72B74265338</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CONFIGURATION_BUILD_DIR</key>
-				<string>$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MBXGraphs</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/MBXGraphs/ResourceBundle-MBXGraphs-Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>PRODUCT_NAME</key>
-				<string>MBXGraphs</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>A7E7752FE18646434D3D5663FE1B4A34</key>
-		<dict>
-			<key>fileRef</key>
-			<string>52FC445141ED11F7A31BB228B492E362</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A8535C3C0E4DDB72AB74ACA994A58BB6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-KBTU_SCADA-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A9CF074D171010C9BDC602225DC87A68</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C4CA604FF74D0185EFB719F06962D53E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AC60BD77B26D140A3328A8D99F73172F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>KRMLPNetworkOutput.m</string>
-			<key>path</key>
-			<string>ML/Outputs/KRMLPNetworkOutput.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AC8CB6F24D037D20F8712ECAFA485F57</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3C9854452B704969D40D932335DEE0FF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ACACDB3AA763EC55A226E4400BC9212E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2B773494BB2AB6A0C3CB60DA95D7D1FF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>ACB124FFC51ECC3993AB3636C4433796</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7C451EF45BBDA997196C47B8B730B273</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>AD39CC5B5F57A586761CA894BDAA1CDE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>09DCE0E1C9CBFC57811444500E19FD52</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ADEC536B93EB031886A281342DC2C781</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>60E61C8EA0762C04EE6240462D02A68B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>165F264F08160C4CCAD61440B30D4254</string>
-				<string>2625184DCB74836E2C4C083380479F85</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>B230AF7ED2A3AF7B0AD1817DCB54BF54</string>
-				<string>10250F387B4EAFAA6CA5BA18B5E2C14A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-KBTU_SCADA</string>
-			<key>productName</key>
-			<string>Pods-KBTU_SCADA</string>
-			<key>productReference</key>
-			<string>BA289EF8339B2F763B59725F84728B17</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>AFC800881F800A8A882D24E8AE072B2D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B4CCDF0ACEE37ED4308724E62FCDE939</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B131A73BACEEC183A6E93A392575EA3B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>64F850C3C1C621A0A02601E0FAB6ABB2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B230AF7ED2A3AF7B0AD1817DCB54BF54</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>KRMLP</string>
-			<key>target</key>
-			<string>7A0D703E39642EE77131B5ADDC0F5237</string>
-			<key>targetProxy</key>
-			<string>0C14A14880D0D32671792AFE982B9268</string>
-		</dict>
-		<key>B29A867B257D9B4BA41BD5965531CDCF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B337445F380E33E43D99FA2435D88840</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>KRMLPFetcher.h</string>
-			<key>path</key>
-			<string>ML/Trained/KRMLPFetcher.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B4CCDF0ACEE37ED4308724E62FCDE939</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>B57161D1EF8B930931C365507475B1F9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>KRMLPOutputNet.h</string>
-			<key>path</key>
-			<string>ML/Nets/KRMLPOutputNet/KRMLPOutputNet.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BA289EF8339B2F763B59725F84728B17</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-KBTU_SCADA.a</string>
-			<key>path</key>
-			<string>libPods-KBTU_SCADA.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>BB1F616EE9FE460CF61E4F95B5C62047</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-KBTU_SCADA.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BBF2F21F1E6C745F6FE32016C163A200</key>
-		<dict>
-			<key>fileRef</key>
-			<string>29B581B24495F2B408F96D377C3EDCF7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>BC2BA739D1B64264E8BC020A33678C7C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5B24142F246F464ABACB3E482CC069A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>BD2CEA8D20C07E1A2A6CAF038BD459BA</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>CA50C9E7295930F5C401CB2720109D83</string>
-				<string>022A7404478B0485EA2906AA5F791DF3</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>BD5976361773391AAB1510174D9C919D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>MBXGraphs-MBXGraphs</string>
-			<key>target</key>
-			<string>C46B12AC8BCB5A330C059A11ED190078</string>
-			<key>targetProxy</key>
-			<string>E8507A2E23964133019D12C8A019BECF</string>
-		</dict>
-		<key>BDF503866B0CA16C1C9B8431A41FF98B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>KRMLP.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C46B12AC8BCB5A330C059A11ED190078</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>5A11CAD5B8DEC6B9255A7F409C9D4413</string>
-			<key>buildPhases</key>
-			<array>
-				<string>71C0435FFEBD597467F5E708EF0C96C9</string>
-				<string>52BECA192E117E7A03AA0F3A528CD03E</string>
-				<string>B29A867B257D9B4BA41BD5965531CDCF</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>MBXGraphs-MBXGraphs</string>
-			<key>productName</key>
-			<string>MBXGraphs-MBXGraphs</string>
-			<key>productReference</key>
-			<string>0C7FA8A009CA1301D4D42A65871D1095</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>C47A851D785CDFE9D42728BEE50D5380</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A258D1314E350C441A1914825532B656</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C4CA604FF74D0185EFB719F06962D53E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MBXNumberUtils.m</string>
-			<key>path</key>
-			<string>Pod/Classes/Utils/MBXNumberUtils.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C6689CBA8CEF09BE790202E941242030</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>KRMLPTrainingOutput.h</string>
-			<key>path</key>
-			<string>ML/Outputs/KRMLPTrainingOutput.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C94A95D00B493B95C1AFDA6D1A89D8BF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>656EC9BD8AFF2D2E9FB7B8C5C4A21BA2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C9661AEB7018012CABDAD6204F8F8976</key>
-		<dict>
-			<key>fileRef</key>
-			<string>77C8519818241BD3B55C0E9E24CC3629</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CA06A1637850447CEDD115D22C78EBAA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>KRMLPActivation.m</string>
-			<key>path</key>
-			<string>ML/Activations/KRMLPActivation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CA50C9E7295930F5C401CB2720109D83</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>116210F17EC65D701FAFB72B74265338</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/MBXGraphs/MBXGraphs-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>CBB148B643DFFD7933DB12CD5F6489BA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>KRMLPPattern.h</string>
-			<key>path</key>
-			<string>ML/Patterns/KRMLPPattern.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CFF56A6B0AF868B7CEC829D3F9FF57CD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>KRMLP.m</string>
-			<key>path</key>
-			<string>ML/KRMLP.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D0165B48AD67DACD88CCA798C8B7EE00</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4CBB5D4DAB5AA50B9321B28F923AEAD6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>D0BE2BE107E792CD1CA4C27E37F97894</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-KBTU_SCADA-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D15B491AC5DEA5C2DE05748BAD9D7331</key>
-		<dict>
-			<key>fileRef</key>
-			<string>53A6FB1B631937EC09AD1BA6BFE00D9F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D3051C9E2F608AA31FE7B1545B5944CE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3EDA7904249BCB998A47E5D3F351E62D</string>
-				<string>D15B491AC5DEA5C2DE05748BAD9D7331</string>
-				<string>1F3665E03EF0B1137506CB555A50A8F5</string>
-				<string>38F49FEB378ED2B6F8EE14E3EB0CB0AA</string>
-				<string>763E8B88500EF3D91649A8F90E00C380</string>
-				<string>B131A73BACEEC183A6E93A392575EA3B</string>
-				<string>F3429922B34B56FFEB02D057A8FF5250</string>
-				<string>C47A851D785CDFE9D42728BEE50D5380</string>
-				<string>A9CF074D171010C9BDC602225DC87A68</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D41D8CD98F00B204E9800998ECF8427E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0730</string>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7DB346D0F39D3F0E887471402A8071AB</string>
-			<key>productRefGroup</key>
-			<string>7F5DAE15A776D4E40EADD51C57E5FE4A</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>7A0D703E39642EE77131B5ADDC0F5237</string>
-				<string>DF833F834558F97A976FEF1459D482EB</string>
-				<string>C46B12AC8BCB5A330C059A11ED190078</string>
-				<string>ADEC536B93EB031886A281342DC2C781</string>
-			</array>
-		</dict>
-		<key>D4F6981CBBE889B83DE7C6D787BD1EAF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>KRMLP-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D560687C2EAA7604298B56AEE78343D9</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>POD_CONFIGURATION_RELEASE=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.1</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D5CAD49BB6F949832B0E53DBAC46EE86</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0B01CF6B995096FD643C77305CDB5B96</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D7D5DAD5885CE514EAE029359647E3BB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6FA85887053EF21ECCACEEA934FE06F8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DAE772E82FFE8EB9E4C8E2500026B464</key>
-		<dict>
-			<key>fileRef</key>
-			<string>377B811F7A75FA833A0F11081CBAE644</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC11991A366F189352ADAF2021814070</key>
-		<dict>
-			<key>fileRef</key>
-			<string>91A57DF767DD536715CEA01B603F0C59</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC8B41308805A47902419419501FAE9B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>KRMLPTrainingOutput.m</string>
-			<key>path</key>
-			<string>ML/Outputs/KRMLPTrainingOutput.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD43F2357E5C5A1E27EB1E2C53F8D328</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>KRMLPPassed.m</string>
-			<key>path</key>
-			<string>ML/Trained/KRMLPPassed.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE2D98574F774C5543822DEE8634F236</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F7FB802085B5051D768B610E864139BD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>DF833F834558F97A976FEF1459D482EB</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>BD2CEA8D20C07E1A2A6CAF038BD459BA</string>
-			<key>buildPhases</key>
-			<array>
-				<string>D3051C9E2F608AA31FE7B1545B5944CE</string>
-				<string>FD30A32321F9A755D4E2986DDE1D6035</string>
-				<string>3367D3B9FC99E96A30FA63EE70295492</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>BD5976361773391AAB1510174D9C919D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>MBXGraphs</string>
-			<key>productName</key>
-			<string>MBXGraphs</string>
-			<key>productReference</key>
-			<string>75B88442F47D844F62A942065F738763</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>DFB28A4AD26CA08AD7A004210BD2B6BF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>57C47EFFF395DE42E7416EEBD2A2ED14</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>E021ADD7CDB6D4703DAA5955EAA1E3CA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EC1C2D341B72D4A69F449EB994374B2A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>E1A9091AF18E70EA7D8DC5744CAE9A2E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>116210F17EC65D701FAFB72B74265338</string>
-				<string>5A7445FC3F3028ACE97E2F9ECB3DA3F2</string>
-				<string>20BEAC752EF23BEE59EAFC40F538F7FE</string>
-				<string>78405F3DA3BF13BA7B4A4B2AE959ECD3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/MBXGraphs</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2095FB2B25C3DABCEDA73C19330E06E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4BE97B72CAE99DAEED3A94250E3417FA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E3C7B932091260C42102744A50369221</key>
-		<dict>
-			<key>fileRef</key>
-			<string>125B11938A50915E28D2E4519B3345D1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E8507A2E23964133019D12C8A019BECF</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>C46B12AC8BCB5A330C059A11ED190078</string>
-			<key>remoteInfo</key>
-			<string>MBXGraphs-MBXGraphs</string>
-		</dict>
-		<key>EC1C2D341B72D4A69F449EB994374B2A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MBXAxisVM.h</string>
-			<key>path</key>
-			<string>Pod/Classes/ViewModel/MBXAxisVM.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDC298A0984CE8B2E4801CBB025C7EC6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C6689CBA8CEF09BE790202E941242030</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>EF8542B0BC06BAA68A56E8D1ACFC9047</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>KRMathLib.h</string>
-			<key>path</key>
-			<string>ML/Utilities/KRMathLib/KRMathLib.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F08040479A3BF7FD51D361FB6DAA3A12</key>
-		<dict>
-			<key>fileRef</key>
-			<string>80A37451F19F638C3E4FC480D58A5AAF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>F1CACC81189ECB1BB82CE47F73EBE3D1</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>POD_CONFIGURATION_DEBUG=1</string>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>F3429922B34B56FFEB02D057A8FF5250</key>
-		<dict>
-			<key>fileRef</key>
-			<string>923DC361A5DF304F585A3DF9FAEB7566</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F42EE60B4B685D5A23D4C7770A597573</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MBXLineGraphDataSource.h</string>
-			<key>path</key>
-			<string>Pod/Classes/DataSource/MBXLineGraphDataSource.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F50542AB7555F1C9F391D4211150F3F1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5C95044AD77B3A67E98EA87AE773998D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F6027BF385341BA797255309E9DA9BE2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>040086CBF5F366F4B6FAF9073FA34B94</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F7FB802085B5051D768B610E864139BD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>KRMLPPassed.h</string>
-			<key>path</key>
-			<string>ML/Trained/KRMLPPassed.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD30A32321F9A755D4E2986DDE1D6035</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>AFC800881F800A8A882D24E8AE072B2D</string>
-				<string>AC8CB6F24D037D20F8712ECAFA485F57</string>
-				<string>71D136DB04BF84D569E38891C3729D15</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FDEFF32A999DE15DE581BA949DF698BC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>935D5109A4CC69B326BC6A1367CA6417</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D41D8CD98F00B204E9800998ECF8427E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01A42A2E2F4A9F45CC33418DA43759D6 /* KRMLPLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 62C4A07F28F7C58844DD0355E73ED7AA /* KRMLPLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		036BFD4F64D10F4B95FEEA44DFE0BEA2 /* MBXNumberUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C20AD0FF8ADCFAF114657F443D2E581A /* MBXNumberUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		043755CA03514A42B7296CE573117E40 /* KRMLPTrainingOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E19D2B8FFA78DA7920C0CE966AA10DB /* KRMLPTrainingOutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F9C955F0474EE844D0606098612AF8C /* KRMLPActivation.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D49E96098B0BC1622CFAC99A0B6080 /* KRMLPActivation.m */; };
+		13F3FFF1F5D356E16931EF69C4D47E49 /* KRMLPFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = CB20C780BFD83F7D24274C9D591DDF99 /* KRMLPFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		189D3BB44E7539F0180B0E362C031777 /* Pods-KBTU_SCADA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C735AB252EE0B3762802F5754C09DF57 /* Pods-KBTU_SCADA-dummy.m */; };
+		2B85E4A2B1F4F4EA21FDC7D4B139CF21 /* MBXGraphDataUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 708FD3D876391B399255BE23897FE1BA /* MBXGraphDataUtils.m */; };
+		2CC812843C580B69BA606A58B6FCB1CA /* MBXGraphAxisView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6029F7F06B8B29E1A084432D3F341255 /* MBXGraphAxisView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		309E6EA59C90B69F08B1AE766E7345FF /* KRMLPPassed.h in Headers */ = {isa = PBXBuildFile; fileRef = F803B428A1A554460B454333A6B1DA42 /* KRMLPPassed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3177501E6392B1606508B0D4ABFD7CDC /* KRMLPOptimization.h in Headers */ = {isa = PBXBuildFile; fileRef = 045FDBB28D7A335796CF8ACF52C1D203 /* KRMLPOptimization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33DE267FF5B384ECAAA47C0826382D1D /* KRMLPNetworkOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = D213B48ECFAF95B8EE2EF340C56FD34C /* KRMLPNetworkOutput.m */; };
+		35CC90E672873465E8E80C941196A8CD /* MBXChartVM.m in Sources */ = {isa = PBXBuildFile; fileRef = BD09BC614EC52E9255BA60BEBEA8EAEC /* MBXChartVM.m */; };
+		369A2F5CD6F55D31E4FFD083D0BEBF1A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C06B1B209CA23EC16EBF65CF890313 /* CoreGraphics.framework */; };
+		3835D4FAC8A058D8EA1E70581C67F507 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5224A726D9EABB2D5F18E4597390EF3 /* UIKit.framework */; };
+		3A64307AF68F250132623C19BD878C41 /* MBXAxisVM.h in Headers */ = {isa = PBXBuildFile; fileRef = 812AC4B03CAEE9E96F95F9E10CC3CAA3 /* MBXAxisVM.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		421EC538D08ADB503FB759C183537E0F /* KRMLPOptimization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B12277654A555736C3BC87B1CB90AD3 /* KRMLPOptimization.m */; };
+		42B05D6930A84CF7BB432A84767C8301 /* KRMLP.h in Headers */ = {isa = PBXBuildFile; fileRef = 47398BA6E7D6D94621E1B061DA486B1C /* KRMLP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B9C56CC9A3DE41E7CB474229636A95 /* KRMLPPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 604252E12883D617281DE0EA4943D3D8 /* KRMLPPattern.m */; };
+		43E113F77BCD5B94415BED46D012C28B /* KRMLP-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F23A6676766C723C3EBF707E362851F2 /* KRMLP-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DEBC33E47D02CFF9B1E0AD8AEFF3680 /* KRMLP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C13BD0929B73B0B956984D303F351E3A /* KRMLP-dummy.m */; };
+		4EE8773239A793F6B44D5559BB37D923 /* KRMLPLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5FBB3090308EB499BDFD03DE59B835 /* KRMLPLayer.m */; };
+		51E685808F792307B178C6328F60A12B /* KRMLPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F01D79A1E666D09628D0A5D779FD71B1 /* KRMLPFetcher.m */; };
+		53A416EEEDD2C890AFBA28117D666AE8 /* MBXGraphs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF1B85E3BECC35038CE16B1E716C650 /* MBXGraphs-dummy.m */; };
+		5E399122D7C05BDA8B7EA55127AE5D07 /* KRMLPCost.h in Headers */ = {isa = PBXBuildFile; fileRef = F57B4F7448E2F901E9F6C2D546E7E894 /* KRMLPCost.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E9536D581169A0238BFBCA89D990BB7 /* KRMLPResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D0A66FDBDF6F7872F2A4043A8CD94DB /* KRMLPResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EC393BCF9507BD1082ADCDCB316CED9 /* KRMLPPattern.h in Headers */ = {isa = PBXBuildFile; fileRef = 67441A64EF7BF02A1E403768A3D66369 /* KRMLPPattern.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EECFA1E8F1638FC7F7E72EA07321A3E /* KRMLPInputLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 644BFB1214FC8DEEB76764315B656B01 /* KRMLPInputLayer.m */; };
+		63F9B77C40568778D370E9F7064F2875 /* KRMLPPassed.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F44AD3F7B29943D5F292F6923160A30 /* KRMLPPassed.m */; };
+		6481BFDD0D4711CDCB248BF742E10140 /* KRMLPInertia.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD2BA827C404AE49F07C62C97FCBC6 /* KRMLPInertia.m */; };
+		66256D88D1FE91D51F5C4D3D1A3B4528 /* KRMLPInertia.h in Headers */ = {isa = PBXBuildFile; fileRef = D4491A4A80D3EA8C606649ED9D7E9477 /* KRMLPInertia.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A133E72E6387456448FCBB29DA734D0 /* KRMLPTrainingOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = E51B212EEAF7093179C8533D9BCC0775 /* KRMLPTrainingOutput.m */; };
+		704F6C372456E6758C669C2824BB84F2 /* KRMLPHiddenNet.m in Sources */ = {isa = PBXBuildFile; fileRef = C32A491EB48093431C8E2647AE67A4FB /* KRMLPHiddenNet.m */; };
+		74B17BBD3629B09B54CBB64C069F8DA2 /* MBXGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D9EE54558D8B1C979F89FAD4534305 /* MBXGraphView.m */; };
+		7732DEBC0D12024C05083A8B702B2D64 /* KRMathLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D95A62F20193CF12DE582BE5D68A87 /* KRMathLib.m */; };
+		7968CA7FC20CF7C9EDFB5A227B542A70 /* MBXChartVM.h in Headers */ = {isa = PBXBuildFile; fileRef = 69CBDBB9B7344470B21D1F6C75F9E3B4 /* MBXChartVM.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B697F101F47D2FC4E199308584158F2 /* MBXGraphDataUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F3BEF343A8E2A8ED13C553D480B284A /* MBXGraphDataUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82563B46E0EF666E2B4B6B7F66D2547A /* MBXGraphVM.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C7AC121657B98A125D7A6944E6D6D7 /* MBXGraphVM.m */; };
+		8B35DE4DA63B2074436A1AD0C5BACE4C /* KRMathLib.h in Headers */ = {isa = PBXBuildFile; fileRef = E98CCA694F75A3914D8DC4B288BB8C7C /* KRMathLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D3CA0BD130625CCE07F5B5F0EF4065E /* KRMLPOutputNet.h in Headers */ = {isa = PBXBuildFile; fileRef = B944A7EE1839371591794139640DB433 /* KRMLPOutputNet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98753D5B73EE630B2FAC627CA51E77BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
+		9A98F0009D76144AD109AACC1936237B /* Pods-KBTU_SCADA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E59FBB1AD900DAD73267F45F40732248 /* Pods-KBTU_SCADA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D6E686BB267C9BC034A7088307A13B1 /* KRMLPNetworkOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DFE6798220EA99DDD60757C6CDAFAFA /* KRMLPNetworkOutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EEED19885403E43E7CB7F5D68B8ACD9 /* KRMLPInputLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 84ED420533F5BDBF1802EF024ACF5A2D /* KRMLPInputLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F70EA3F340C76520B7C68E46430B927 /* KRMLPHiddenLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AF7E7DB345C536E46E81B2BE222AEF /* KRMLPHiddenLayer.m */; };
+		A0A36E7AA583D61082D17B0FFFCCF8D1 /* KRMLPOutputLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DA83D461785F6D10F71321414DE7ED /* KRMLPOutputLayer.m */; };
+		A2BA541B345B9AA60C5A0934EE5EB6B7 /* MBXGraphView.h in Headers */ = {isa = PBXBuildFile; fileRef = A573068AC12384F800FCAD8C4F921433 /* MBXGraphView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5E0910EB344A7D11C45A6B646836A3D /* MBXGraphAxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE96891C19F2229FAD781CDF1E07BB44 /* MBXGraphAxisView.m */; };
+		B261B953DE4978833B3AC3FBB1832BE4 /* MBXGraphs.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A607ABDDF3181EE29BF2C76432BF24F2 /* MBXGraphs.bundle */; };
+		B5B4069B027C8C669EE06B7CC7918A9A /* MBXAxisVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 31ACA5E303A51B7B466BC3F50A03F76A /* MBXAxisVM.m */; };
+		BCE8C7B7B98EAE8FC682E3497497681B /* MBXGraphs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EDB1CA84300534429C9E8C8A7C163E1 /* MBXGraphs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C579A742BAE6B40AF21F3FB6D11445DE /* KRMLPActivation.h in Headers */ = {isa = PBXBuildFile; fileRef = B5185F30A9F1239E86F0901C0CFE9298 /* KRMLPActivation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C927EA47C0E5F502C82846618310C4C4 /* KRMLPOutputLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EB74661103B0888E80C388BBFF32DFB /* KRMLPOutputLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3ACAB4D2FBD779891DBB1699D435AD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
+		D4416A93E8F2DD11C9330ACC58F645C6 /* MBXGraphDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 796AD59C7AFEDFFCD91636D0AFDDEBE9 /* MBXGraphDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D47156A60C14FB89F413C71CCA375CCF /* MBXLineGraphDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 29467689FFAC97B8A2F6D9B77726C563 /* MBXLineGraphDataSource.m */; };
+		D579C5FD775747766907A715E913EF5F /* MBXNumberUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D339DF710BF6F38A56AA0EE0A1BFC6C /* MBXNumberUtils.m */; };
+		D8EFB7452F88A4FD17C429D051B3DCB1 /* KRMLPCost.m in Sources */ = {isa = PBXBuildFile; fileRef = B4058ED8D5A8F49F3177614AE1E4408D /* KRMLPCost.m */; };
+		E48FAB5C3248FA213225F1D20F45D2D9 /* KRMLPNet.h in Headers */ = {isa = PBXBuildFile; fileRef = B2E5466F8BBEADA8EA5AFF9B3AAAF780 /* KRMLPNet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7F3BB479657BCE6481EA97A43E683BA /* KRMLPHiddenLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 185525468F48F2FC4EE93353CE2444C4 /* KRMLPHiddenLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9529B20B927A9AD1CE8875BB47F4FE3 /* KRMLPNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 31ED6E2234833E30693C0E5DC4F6D5F9 /* KRMLPNet.m */; };
+		EE578155C1BFD7AB6090C53378578E34 /* KRMLPHiddenNet.h in Headers */ = {isa = PBXBuildFile; fileRef = 369C99A01446B6B0C59CE63488FA4C7C /* KRMLPHiddenNet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE93B3A0EF5317835F8F455905772AB6 /* KRMLP.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B4C815BD2DA867ADE9E567AAE4EBC4 /* KRMLP.m */; };
+		F1B601F3D1EDED9DE62FB2AADD7A27CD /* KRMLPResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 67212C01F8C2FC348C1E031ADB6D8A5E /* KRMLPResult.m */; };
+		F466A24B19C2562F0A54BA40016E655D /* MBXGraphVM.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F46D9667164B068A16DB6A0188A2D65 /* MBXGraphVM.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8042B0D8A11E0E6042F4B1D280C2219 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
+		F9D4219960657A6B115EA5F60E030774 /* MBXLineGraphDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B43E9A3E17ADEDD03D0C0D0333B8D16 /* MBXLineGraphDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBCD247087484A7CD145F4767258A84E /* KRMLPOutputNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 532CCA7578BADF60F4B812592A4EEB6A /* KRMLPOutputNet.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0769242DA781C70CC5351D52D9643F79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3DF35E448635CEFE889FA7232310F8C;
+			remoteInfo = KRMLP;
+		};
+		24216D032F99FA39DCD870AA92E1DEF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3DC924332CC970C1CBDF0651AB6244E;
+			remoteInfo = MBXGraphs;
+		};
+		9B045CE7D3A1A662FEA7125FB3BADEBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38FEE84A1789B2E72A91CFFE2FE52910;
+			remoteInfo = "MBXGraphs-MBXGraphs";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045FDBB28D7A335796CF8ACF52C1D203 /* KRMLPOptimization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KRMLPOptimization.h; path = ML/Optimizations/KRMLPOptimization.h; sourceTree = "<group>"; };
+		0B43E9A3E17ADEDD03D0C0D0333B8D16 /* MBXLineGraphDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBXLineGraphDataSource.h; path = Pod/Classes/DataSource/MBXLineGraphDataSource.h; sourceTree = "<group>"; };
+		0DAD2BA827C404AE49F07C62C97FCBC6 /* KRMLPInertia.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KRMLPInertia.m; path = ML/Optimizations/Inertia/KRMLPInertia.m; sourceTree = "<group>"; };
+		0E447A11D329684311CE754EFC37EE81 /* KRMLP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KRMLP.framework; path = KRMLP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EB74661103B0888E80C388BBFF32DFB /* KRMLPOutputLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KRMLPOutputLayer.h; path = ML/Layers/KRMLPOutputLayer/KRMLPOutputLayer.h; sourceTree = "<group>"; };
+		109F56B43EE58F7D6E56B532352EBCB1 /* Pods-KBTU_SCADA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KBTU_SCADA.modulemap"; sourceTree = "<group>"; };
+		15D95A62F20193CF12DE582BE5D68A87 /* KRMathLib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KRMathLib.m; path = ML/Utilities/KRMathLib/KRMathLib.m; sourceTree = "<group>"; };
+		1663B857A948DBF65F2E12AE0525EF50 /* Pods-KBTU_SCADA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KBTU_SCADA.release.xcconfig"; sourceTree = "<group>"; };
+		185525468F48F2FC4EE93353CE2444C4 /* KRMLPHiddenLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KRMLPHiddenLayer.h; path = ML/Layers/KRMLPHiddenLayer/KRMLPHiddenLayer.h; sourceTree = "<group>"; };
+		1E988ED83FEA152D7E2194E14836E256 /* MBXGraphs.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MBXGraphs.modulemap; sourceTree = "<group>"; };
+		1EF1B85E3BECC35038CE16B1E716C650 /* MBXGraphs-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBXGraphs-dummy.m"; sourceTree = "<group>"; };
+		27AF7E7DB345C536E46E81B2BE222AEF /* KRMLPHiddenLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KRMLPHiddenLayer.m; path = ML/Layers/KRMLPHiddenLayer/KRMLPHiddenLayer.m; sourceTree = "<group>"; };
+		29467689FFAC97B8A2F6D9B77726C563 /* MBXLineGraphDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBXLineGraphDataSource.m; path = Pod/Classes/DataSource/MBXLineGraphDataSource.m; sourceTree = "<group>"; };
+		31ACA5E303A51B7B466BC3F50A03F76A /* MBXAxisVM.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBXAxisVM.m; path = Pod/Classes/ViewModel/MBXAxisVM.m; sourceTree = "<group>"; };
+		31ED6E2234833E30693C0E5DC4F6D5F9 /* KRMLPNet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KRMLPNet.m; path = ML/Nets/KRMLPNet.m; sourceTree = "<group>"; };
+		369C99A01446B6B0C59CE63488FA4C7C /* KRMLPHiddenNet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KRMLPHiddenNet.h; path = ML/Nets/KRMLPHiddenNet/KRMLPHiddenNet.h; sourceTree = "<group>"; };
+		3AAF429B58CAA34F2105C5D090B1A6D1 /* Pods-KBTU_SCADA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KBTU_SCADA.debug.xcconfig"; sourceTree = "<group>"; };
+		47398BA6E7D6D94621E1B061DA486B1C /* KRMLP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KRMLP.h; path = ML/KRMLP.h; sourceTree = "<group>"; };
+		4D0A66FDBDF6F7872F2A4043A8CD94DB /* KRMLPResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KRMLPResult.h; path = ML/Outputs/KRMLPResult.h; sourceTree = "<group>"; };
+		4F3BEF343A8E2A8ED13C553D480B284A /* MBXGraphDataUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBXGraphDataUtils.h; path = Pod/Classes/Utils/MBXGraphDataUtils.h; sourceTree = "<group>"; };
+		52AD572EEBF7C95C8E653065BD37D39D /* Pods-KBTU_SCADA-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KBTU_SCADA-frameworks.sh"; sourceTree = "<group>"; };
+		532CCA7578BADF60F4B812592A4EEB6A /* KRMLPOutputNet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KRMLPOutputNet.m; path = ML/Nets/KRMLPOutputNet/KRMLPOutputNet.m; sourceTree = "<group>"; };
+		560CFE8E421B9E605C8074A8D1BCCC34 /* MBXGraphs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBXGraphs.framework; path = MBXGraphs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D339DF710BF6F38A56AA0EE0A1BFC6C /* MBXNumberUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBXNumberUtils.m; path = Pod/Classes/Utils/MBXNumberUtils.m; sourceTree = "<group>"; };
+		6029F7F06B8B29E1A084432D3F341255 /* MBXGraphAxisView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBXGraphAxisView.h; path = Pod/Classes/Views/MBXGraphAxisView.h; sourceTree = "<group>"; };
+		604252E12883D617281DE0EA4943D3D8 /* KRMLPPattern.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KRMLPPattern.m; path = ML/Patterns/KRMLPPattern.m; sourceTree = "<group>"; };
+		62C4A07F28F7C58844DD0355E73ED7AA /* KRMLPLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KRMLPLayer.h; path = ML/Layers/KRMLPLayer.h; sourceTree = "<group>"; };
+		644BFB1214FC8DEEB76764315B656B01 /* KRMLPInputLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KRMLPInputLayer.m; path = ML/Layers/KRMLPInputLayer/KRMLPInputLayer.m; sourceTree = "<group>"; };
+		67212C01F8C2FC348C1E031ADB6D8A5E /* KRMLPResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KRMLPResult.m; path = ML/Outputs/KRMLPResult.m; sourceTree = "<group>"; };
+		67441A64EF7BF02A1E403768A3D66369 /* KRMLPPattern.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KRMLPPattern.h; path = ML/Patterns/KRMLPPattern.h; sourceTree = "<group>"; };
+		6823F4220E1FCDFA32DC45617D28C3FE /* ResourceBundle-MBXGraphs-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MBXGraphs-Info.plist"; sourceTree = "<group>"; };
+		6982E0B6DD26334D7191DFB9A7E61AD3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69CBDBB9B7344470B21D1F6C75F9E3B4 /* MBXChartVM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBXChartVM.h; path = Pod/Classes/ViewModel/MBXChartVM.h; sourceTree = "<group>"; };
+		6A53E36C1357BF66EBC36DA7E86CDB71 /* MBXGraphs-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBXGraphs-prefix.pch"; sourceTree = "<group>"; };
+		6B5FBB3090308EB499BDFD03DE59B835 /* KRMLPLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KRMLPLayer.m; path = ML/Layers/KRMLPLayer.m; sourceTree = "<group>"; };
+		6BB638128E27FD77FEC59229420DC706 /* Pods-KBTU_SCADA-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KBTU_SCADA-acknowledgements.plist"; sourceTree = "<group>"; };
+		6FE08E3B55BD653C1909C83C06CCA098 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		708FD3D876391B399255BE23897FE1BA /* MBXGraphDataUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBXGraphDataUtils.m; path = Pod/Classes/Utils/MBXGraphDataUtils.m; sourceTree = "<group>"; };
+		72ED4B439A9BF6AA79AF66146D62B096 /* Pods-KBTU_SCADA-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KBTU_SCADA-resources.sh"; sourceTree = "<group>"; };
+		76857C8C363B4B48055ADBEB1155F84F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		796AD59C7AFEDFFCD91636D0AFDDEBE9 /* MBXGraphDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBXGraphDataSource.h; path = Pod/Classes/DataSource/MBXGraphDataSource.h; sourceTree = "<group>"; };
+		7AC3F672B488E30B4794423682267745 /* KRMLP.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KRMLP.modulemap; sourceTree = "<group>"; };
+		7B12277654A555736C3BC87B1CB90AD3 /* KRMLPOptimization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KRMLPOptimization.m; path = ML/Optimizations/KRMLPOptimization.m; sourceTree = "<group>"; };
+		7EDB1CA84300534429C9E8C8A7C163E1 /* MBXGraphs-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBXGraphs-umbrella.h"; sourceTree = "<group>"; };
+		812AC4B03CAEE9E96F95F9E10CC3CAA3 /* MBXAxisVM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBXAxisVM.h; path = Pod/Classes/ViewModel/MBXAxisVM.h; sourceTree = "<group>"; };
+		84ED420533F5BDBF1802EF024ACF5A2D /* KRMLPInputLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KRMLPInputLayer.h; path = ML/Layers/KRMLPInputLayer/KRMLPInputLayer.h; sourceTree = "<group>"; };
+		87D9EE54558D8B1C979F89FAD4534305 /* MBXGraphView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBXGraphView.m; path = Pod/Classes/Views/MBXGraphView.m; sourceTree = "<group>"; };
+		8DFE6798220EA99DDD60757C6CDAFAFA /* KRMLPNetworkOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KRMLPNetworkOutput.h; path = ML/Outputs/KRMLPNetworkOutput.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99C06B1B209CA23EC16EBF65CF890313 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		9E19D2B8FFA78DA7920C0CE966AA10DB /* KRMLPTrainingOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KRMLPTrainingOutput.h; path = ML/Outputs/KRMLPTrainingOutput.h; sourceTree = "<group>"; };
+		9F44AD3F7B29943D5F292F6923160A30 /* KRMLPPassed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KRMLPPassed.m; path = ML/Trained/KRMLPPassed.m; sourceTree = "<group>"; };
+		9F46D9667164B068A16DB6A0188A2D65 /* MBXGraphVM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBXGraphVM.h; path = Pod/Classes/ViewModel/MBXGraphVM.h; sourceTree = "<group>"; };
+		A194CE51575B4FBA6C890EE220331D30 /* Pods_KBTU_SCADA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KBTU_SCADA.framework; path = "Pods-KBTU_SCADA.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5224A726D9EABB2D5F18E4597390EF3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A573068AC12384F800FCAD8C4F921433 /* MBXGraphView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBXGraphView.h; path = Pod/Classes/Views/MBXGraphView.h; sourceTree = "<group>"; };
+		A607ABDDF3181EE29BF2C76432BF24F2 /* MBXGraphs.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MBXGraphs.bundle; path = MBXGraphs.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD399E67760CAC702585685AB023870E /* KRMLP.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRMLP.xcconfig; sourceTree = "<group>"; };
+		B2E5466F8BBEADA8EA5AFF9B3AAAF780 /* KRMLPNet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KRMLPNet.h; path = ML/Nets/KRMLPNet.h; sourceTree = "<group>"; };
+		B4058ED8D5A8F49F3177614AE1E4408D /* KRMLPCost.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KRMLPCost.m; path = ML/Layers/KRMLPOutputLayer/KRMLPCost.m; sourceTree = "<group>"; };
+		B5185F30A9F1239E86F0901C0CFE9298 /* KRMLPActivation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KRMLPActivation.h; path = ML/Activations/KRMLPActivation.h; sourceTree = "<group>"; };
+		B8D49E96098B0BC1622CFAC99A0B6080 /* KRMLPActivation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KRMLPActivation.m; path = ML/Activations/KRMLPActivation.m; sourceTree = "<group>"; };
+		B944A7EE1839371591794139640DB433 /* KRMLPOutputNet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KRMLPOutputNet.h; path = ML/Nets/KRMLPOutputNet/KRMLPOutputNet.h; sourceTree = "<group>"; };
+		B9DA83D461785F6D10F71321414DE7ED /* KRMLPOutputLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KRMLPOutputLayer.m; path = ML/Layers/KRMLPOutputLayer/KRMLPOutputLayer.m; sourceTree = "<group>"; };
+		BD09BC614EC52E9255BA60BEBEA8EAEC /* MBXChartVM.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBXChartVM.m; path = Pod/Classes/ViewModel/MBXChartVM.m; sourceTree = "<group>"; };
+		C13BD0929B73B0B956984D303F351E3A /* KRMLP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KRMLP-dummy.m"; sourceTree = "<group>"; };
+		C20AD0FF8ADCFAF114657F443D2E581A /* MBXNumberUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBXNumberUtils.h; path = Pod/Classes/Utils/MBXNumberUtils.h; sourceTree = "<group>"; };
+		C32A491EB48093431C8E2647AE67A4FB /* KRMLPHiddenNet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KRMLPHiddenNet.m; path = ML/Nets/KRMLPHiddenNet/KRMLPHiddenNet.m; sourceTree = "<group>"; };
+		C6B4C815BD2DA867ADE9E567AAE4EBC4 /* KRMLP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KRMLP.m; path = ML/KRMLP.m; sourceTree = "<group>"; };
+		C735AB252EE0B3762802F5754C09DF57 /* Pods-KBTU_SCADA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KBTU_SCADA-dummy.m"; sourceTree = "<group>"; };
+		CA7B91ACF4591268854849F54F49C1AD /* MBXGraphs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBXGraphs.xcconfig; sourceTree = "<group>"; };
+		CB20C780BFD83F7D24274C9D591DDF99 /* KRMLPFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KRMLPFetcher.h; path = ML/Trained/KRMLPFetcher.h; sourceTree = "<group>"; };
+		CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D03767A5707816D73F9E2165D1E02E09 /* KRMLP-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRMLP-prefix.pch"; sourceTree = "<group>"; };
+		D213B48ECFAF95B8EE2EF340C56FD34C /* KRMLPNetworkOutput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KRMLPNetworkOutput.m; path = ML/Outputs/KRMLPNetworkOutput.m; sourceTree = "<group>"; };
+		D4491A4A80D3EA8C606649ED9D7E9477 /* KRMLPInertia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KRMLPInertia.h; path = ML/Optimizations/Inertia/KRMLPInertia.h; sourceTree = "<group>"; };
+		E3DD548051007759AA8132A85A7FF0B2 /* Pods-KBTU_SCADA-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KBTU_SCADA-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E51B212EEAF7093179C8533D9BCC0775 /* KRMLPTrainingOutput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KRMLPTrainingOutput.m; path = ML/Outputs/KRMLPTrainingOutput.m; sourceTree = "<group>"; };
+		E59FBB1AD900DAD73267F45F40732248 /* Pods-KBTU_SCADA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KBTU_SCADA-umbrella.h"; sourceTree = "<group>"; };
+		E98CCA694F75A3914D8DC4B288BB8C7C /* KRMathLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KRMathLib.h; path = ML/Utilities/KRMathLib/KRMathLib.h; sourceTree = "<group>"; };
+		F01D79A1E666D09628D0A5D779FD71B1 /* KRMLPFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KRMLPFetcher.m; path = ML/Trained/KRMLPFetcher.m; sourceTree = "<group>"; };
+		F23A6676766C723C3EBF707E362851F2 /* KRMLP-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRMLP-umbrella.h"; sourceTree = "<group>"; };
+		F57B4F7448E2F901E9F6C2D546E7E894 /* KRMLPCost.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KRMLPCost.h; path = ML/Layers/KRMLPOutputLayer/KRMLPCost.h; sourceTree = "<group>"; };
+		F7C7AC121657B98A125D7A6944E6D6D7 /* MBXGraphVM.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBXGraphVM.m; path = Pod/Classes/ViewModel/MBXGraphVM.m; sourceTree = "<group>"; };
+		F803B428A1A554460B454333A6B1DA42 /* KRMLPPassed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KRMLPPassed.h; path = ML/Trained/KRMLPPassed.h; sourceTree = "<group>"; };
+		FE96891C19F2229FAD781CDF1E07BB44 /* MBXGraphAxisView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBXGraphAxisView.m; path = Pod/Classes/Views/MBXGraphAxisView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		812FBE597FF7F7FC7168F8330EAB319B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3ACAB4D2FBD779891DBB1699D435AD1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94DFA92977BF19FB5B1BFF8F4D87E9EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA61F9D80C9BC8C2088D9FE90552B3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369A2F5CD6F55D31E4FFD083D0BEBF1A /* CoreGraphics.framework in Frameworks */,
+				98753D5B73EE630B2FAC627CA51E77BA /* Foundation.framework in Frameworks */,
+				3835D4FAC8A058D8EA1E70581C67F507 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D866634D0C7269F26C9F5CFAECF22265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8042B0D8A11E0E6042F4B1D280C2219 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93FD095B5FC2A2BCC81B8E3CFC167E67 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36483F45C71EF34DD20B7D312B510BC7 /* MBXGraphs */ = {
+			isa = PBXGroup;
+			children = (
+				812AC4B03CAEE9E96F95F9E10CC3CAA3 /* MBXAxisVM.h */,
+				31ACA5E303A51B7B466BC3F50A03F76A /* MBXAxisVM.m */,
+				69CBDBB9B7344470B21D1F6C75F9E3B4 /* MBXChartVM.h */,
+				BD09BC614EC52E9255BA60BEBEA8EAEC /* MBXChartVM.m */,
+				6029F7F06B8B29E1A084432D3F341255 /* MBXGraphAxisView.h */,
+				FE96891C19F2229FAD781CDF1E07BB44 /* MBXGraphAxisView.m */,
+				796AD59C7AFEDFFCD91636D0AFDDEBE9 /* MBXGraphDataSource.h */,
+				4F3BEF343A8E2A8ED13C553D480B284A /* MBXGraphDataUtils.h */,
+				708FD3D876391B399255BE23897FE1BA /* MBXGraphDataUtils.m */,
+				A573068AC12384F800FCAD8C4F921433 /* MBXGraphView.h */,
+				87D9EE54558D8B1C979F89FAD4534305 /* MBXGraphView.m */,
+				9F46D9667164B068A16DB6A0188A2D65 /* MBXGraphVM.h */,
+				F7C7AC121657B98A125D7A6944E6D6D7 /* MBXGraphVM.m */,
+				0B43E9A3E17ADEDD03D0C0D0333B8D16 /* MBXLineGraphDataSource.h */,
+				29467689FFAC97B8A2F6D9B77726C563 /* MBXLineGraphDataSource.m */,
+				C20AD0FF8ADCFAF114657F443D2E581A /* MBXNumberUtils.h */,
+				5D339DF710BF6F38A56AA0EE0A1BFC6C /* MBXNumberUtils.m */,
+				89D96475DA3ABC22A780B6838775F0C3 /* Support Files */,
+			);
+			name = MBXGraphs;
+			path = MBXGraphs;
+			sourceTree = "<group>";
+		};
+		37DCEE34930A38482791DED292183EA8 /* Pods-KBTU_SCADA */ = {
+			isa = PBXGroup;
+			children = (
+				6FE08E3B55BD653C1909C83C06CCA098 /* Info.plist */,
+				109F56B43EE58F7D6E56B532352EBCB1 /* Pods-KBTU_SCADA.modulemap */,
+				E3DD548051007759AA8132A85A7FF0B2 /* Pods-KBTU_SCADA-acknowledgements.markdown */,
+				6BB638128E27FD77FEC59229420DC706 /* Pods-KBTU_SCADA-acknowledgements.plist */,
+				C735AB252EE0B3762802F5754C09DF57 /* Pods-KBTU_SCADA-dummy.m */,
+				52AD572EEBF7C95C8E653065BD37D39D /* Pods-KBTU_SCADA-frameworks.sh */,
+				72ED4B439A9BF6AA79AF66146D62B096 /* Pods-KBTU_SCADA-resources.sh */,
+				E59FBB1AD900DAD73267F45F40732248 /* Pods-KBTU_SCADA-umbrella.h */,
+				3AAF429B58CAA34F2105C5D090B1A6D1 /* Pods-KBTU_SCADA.debug.xcconfig */,
+				1663B857A948DBF65F2E12AE0525EF50 /* Pods-KBTU_SCADA.release.xcconfig */,
+			);
+			name = "Pods-KBTU_SCADA";
+			path = "Target Support Files/Pods-KBTU_SCADA";
+			sourceTree = "<group>";
+		};
+		3B6F3A9C9068F711F4163CD4B11953BA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				37DCEE34930A38482791DED292183EA8 /* Pods-KBTU_SCADA */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		546E46700F1510484D46E99C60DECDC8 /* KRMLP */ = {
+			isa = PBXGroup;
+			children = (
+				E98CCA694F75A3914D8DC4B288BB8C7C /* KRMathLib.h */,
+				15D95A62F20193CF12DE582BE5D68A87 /* KRMathLib.m */,
+				47398BA6E7D6D94621E1B061DA486B1C /* KRMLP.h */,
+				C6B4C815BD2DA867ADE9E567AAE4EBC4 /* KRMLP.m */,
+				B5185F30A9F1239E86F0901C0CFE9298 /* KRMLPActivation.h */,
+				B8D49E96098B0BC1622CFAC99A0B6080 /* KRMLPActivation.m */,
+				F57B4F7448E2F901E9F6C2D546E7E894 /* KRMLPCost.h */,
+				B4058ED8D5A8F49F3177614AE1E4408D /* KRMLPCost.m */,
+				CB20C780BFD83F7D24274C9D591DDF99 /* KRMLPFetcher.h */,
+				F01D79A1E666D09628D0A5D779FD71B1 /* KRMLPFetcher.m */,
+				185525468F48F2FC4EE93353CE2444C4 /* KRMLPHiddenLayer.h */,
+				27AF7E7DB345C536E46E81B2BE222AEF /* KRMLPHiddenLayer.m */,
+				369C99A01446B6B0C59CE63488FA4C7C /* KRMLPHiddenNet.h */,
+				C32A491EB48093431C8E2647AE67A4FB /* KRMLPHiddenNet.m */,
+				D4491A4A80D3EA8C606649ED9D7E9477 /* KRMLPInertia.h */,
+				0DAD2BA827C404AE49F07C62C97FCBC6 /* KRMLPInertia.m */,
+				84ED420533F5BDBF1802EF024ACF5A2D /* KRMLPInputLayer.h */,
+				644BFB1214FC8DEEB76764315B656B01 /* KRMLPInputLayer.m */,
+				62C4A07F28F7C58844DD0355E73ED7AA /* KRMLPLayer.h */,
+				6B5FBB3090308EB499BDFD03DE59B835 /* KRMLPLayer.m */,
+				B2E5466F8BBEADA8EA5AFF9B3AAAF780 /* KRMLPNet.h */,
+				31ED6E2234833E30693C0E5DC4F6D5F9 /* KRMLPNet.m */,
+				8DFE6798220EA99DDD60757C6CDAFAFA /* KRMLPNetworkOutput.h */,
+				D213B48ECFAF95B8EE2EF340C56FD34C /* KRMLPNetworkOutput.m */,
+				045FDBB28D7A335796CF8ACF52C1D203 /* KRMLPOptimization.h */,
+				7B12277654A555736C3BC87B1CB90AD3 /* KRMLPOptimization.m */,
+				0EB74661103B0888E80C388BBFF32DFB /* KRMLPOutputLayer.h */,
+				B9DA83D461785F6D10F71321414DE7ED /* KRMLPOutputLayer.m */,
+				B944A7EE1839371591794139640DB433 /* KRMLPOutputNet.h */,
+				532CCA7578BADF60F4B812592A4EEB6A /* KRMLPOutputNet.m */,
+				F803B428A1A554460B454333A6B1DA42 /* KRMLPPassed.h */,
+				9F44AD3F7B29943D5F292F6923160A30 /* KRMLPPassed.m */,
+				67441A64EF7BF02A1E403768A3D66369 /* KRMLPPattern.h */,
+				604252E12883D617281DE0EA4943D3D8 /* KRMLPPattern.m */,
+				4D0A66FDBDF6F7872F2A4043A8CD94DB /* KRMLPResult.h */,
+				67212C01F8C2FC348C1E031ADB6D8A5E /* KRMLPResult.m */,
+				9E19D2B8FFA78DA7920C0CE966AA10DB /* KRMLPTrainingOutput.h */,
+				E51B212EEAF7093179C8533D9BCC0775 /* KRMLPTrainingOutput.m */,
+				F3310EC58131C624715F7D8792B4C237 /* Support Files */,
+			);
+			name = KRMLP;
+			path = KRMLP;
+			sourceTree = "<group>";
+		};
+		596ADA640BD6B83A4BF4F8C7E2BE2872 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				546E46700F1510484D46E99C60DECDC8 /* KRMLP */,
+				36483F45C71EF34DD20B7D312B510BC7 /* MBXGraphs */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				596ADA640BD6B83A4BF4F8C7E2BE2872 /* Pods */,
+				F032D44C6855B5F0FC555D2E3EE29A6A /* Products */,
+				3B6F3A9C9068F711F4163CD4B11953BA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		89D96475DA3ABC22A780B6838775F0C3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6982E0B6DD26334D7191DFB9A7E61AD3 /* Info.plist */,
+				1E988ED83FEA152D7E2194E14836E256 /* MBXGraphs.modulemap */,
+				CA7B91ACF4591268854849F54F49C1AD /* MBXGraphs.xcconfig */,
+				1EF1B85E3BECC35038CE16B1E716C650 /* MBXGraphs-dummy.m */,
+				6A53E36C1357BF66EBC36DA7E86CDB71 /* MBXGraphs-prefix.pch */,
+				7EDB1CA84300534429C9E8C8A7C163E1 /* MBXGraphs-umbrella.h */,
+				6823F4220E1FCDFA32DC45617D28C3FE /* ResourceBundle-MBXGraphs-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBXGraphs";
+			sourceTree = "<group>";
+		};
+		93FD095B5FC2A2BCC81B8E3CFC167E67 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				99C06B1B209CA23EC16EBF65CF890313 /* CoreGraphics.framework */,
+				CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */,
+				A5224A726D9EABB2D5F18E4597390EF3 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F032D44C6855B5F0FC555D2E3EE29A6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E447A11D329684311CE754EFC37EE81 /* KRMLP.framework */,
+				A607ABDDF3181EE29BF2C76432BF24F2 /* MBXGraphs.bundle */,
+				560CFE8E421B9E605C8074A8D1BCCC34 /* MBXGraphs.framework */,
+				A194CE51575B4FBA6C890EE220331D30 /* Pods_KBTU_SCADA.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3310EC58131C624715F7D8792B4C237 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				76857C8C363B4B48055ADBEB1155F84F /* Info.plist */,
+				7AC3F672B488E30B4794423682267745 /* KRMLP.modulemap */,
+				AD399E67760CAC702585685AB023870E /* KRMLP.xcconfig */,
+				C13BD0929B73B0B956984D303F351E3A /* KRMLP-dummy.m */,
+				D03767A5707816D73F9E2165D1E02E09 /* KRMLP-prefix.pch */,
+				F23A6676766C723C3EBF707E362851F2 /* KRMLP-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KRMLP";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		94486EDBC93A0624FE46FCE140423EFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A64307AF68F250132623C19BD878C41 /* MBXAxisVM.h in Headers */,
+				7968CA7FC20CF7C9EDFB5A227B542A70 /* MBXChartVM.h in Headers */,
+				2CC812843C580B69BA606A58B6FCB1CA /* MBXGraphAxisView.h in Headers */,
+				D4416A93E8F2DD11C9330ACC58F645C6 /* MBXGraphDataSource.h in Headers */,
+				7B697F101F47D2FC4E199308584158F2 /* MBXGraphDataUtils.h in Headers */,
+				BCE8C7B7B98EAE8FC682E3497497681B /* MBXGraphs-umbrella.h in Headers */,
+				A2BA541B345B9AA60C5A0934EE5EB6B7 /* MBXGraphView.h in Headers */,
+				F466A24B19C2562F0A54BA40016E655D /* MBXGraphVM.h in Headers */,
+				F9D4219960657A6B115EA5F60E030774 /* MBXLineGraphDataSource.h in Headers */,
+				036BFD4F64D10F4B95FEEA44DFE0BEA2 /* MBXNumberUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0A8C644BA38B6731C5A9B8994D1E811 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A98F0009D76144AD109AACC1936237B /* Pods-KBTU_SCADA-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE476DBE4330DA6EE43C46E4FFD3A55D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B35DE4DA63B2074436A1AD0C5BACE4C /* KRMathLib.h in Headers */,
+				43E113F77BCD5B94415BED46D012C28B /* KRMLP-umbrella.h in Headers */,
+				42B05D6930A84CF7BB432A84767C8301 /* KRMLP.h in Headers */,
+				C579A742BAE6B40AF21F3FB6D11445DE /* KRMLPActivation.h in Headers */,
+				5E399122D7C05BDA8B7EA55127AE5D07 /* KRMLPCost.h in Headers */,
+				13F3FFF1F5D356E16931EF69C4D47E49 /* KRMLPFetcher.h in Headers */,
+				E7F3BB479657BCE6481EA97A43E683BA /* KRMLPHiddenLayer.h in Headers */,
+				EE578155C1BFD7AB6090C53378578E34 /* KRMLPHiddenNet.h in Headers */,
+				66256D88D1FE91D51F5C4D3D1A3B4528 /* KRMLPInertia.h in Headers */,
+				9EEED19885403E43E7CB7F5D68B8ACD9 /* KRMLPInputLayer.h in Headers */,
+				01A42A2E2F4A9F45CC33418DA43759D6 /* KRMLPLayer.h in Headers */,
+				E48FAB5C3248FA213225F1D20F45D2D9 /* KRMLPNet.h in Headers */,
+				9D6E686BB267C9BC034A7088307A13B1 /* KRMLPNetworkOutput.h in Headers */,
+				3177501E6392B1606508B0D4ABFD7CDC /* KRMLPOptimization.h in Headers */,
+				C927EA47C0E5F502C82846618310C4C4 /* KRMLPOutputLayer.h in Headers */,
+				8D3CA0BD130625CCE07F5B5F0EF4065E /* KRMLPOutputNet.h in Headers */,
+				309E6EA59C90B69F08B1AE766E7345FF /* KRMLPPassed.h in Headers */,
+				5EC393BCF9507BD1082ADCDCB316CED9 /* KRMLPPattern.h in Headers */,
+				5E9536D581169A0238BFBCA89D990BB7 /* KRMLPResult.h in Headers */,
+				043755CA03514A42B7296CE573117E40 /* KRMLPTrainingOutput.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B2350B6558750EDF3B4DB15579B09BD /* Pods-KBTU_SCADA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AB4DB91AA95F080A7AC7890567D31A3 /* Build configuration list for PBXNativeTarget "Pods-KBTU_SCADA" */;
+			buildPhases = (
+				5FD152B7839B06761EBE5A88F26FEAA6 /* Sources */,
+				812FBE597FF7F7FC7168F8330EAB319B /* Frameworks */,
+				E0A8C644BA38B6731C5A9B8994D1E811 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				336B207018F7B1CB22B69B47F16A64BA /* PBXTargetDependency */,
+				ACE556E6B4F3B1C80C5FC069B8326E74 /* PBXTargetDependency */,
+			);
+			name = "Pods-KBTU_SCADA";
+			productName = "Pods-KBTU_SCADA";
+			productReference = A194CE51575B4FBA6C890EE220331D30 /* Pods_KBTU_SCADA.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		38FEE84A1789B2E72A91CFFE2FE52910 /* MBXGraphs-MBXGraphs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7F1480324908EA742D86866645A97A8 /* Build configuration list for PBXNativeTarget "MBXGraphs-MBXGraphs" */;
+			buildPhases = (
+				AA3BBB6814B6C75533B474C16A4D3B69 /* Sources */,
+				94DFA92977BF19FB5B1BFF8F4D87E9EC /* Frameworks */,
+				D2DF04BA5FF298020B943C2BE6726C91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MBXGraphs-MBXGraphs";
+			productName = "MBXGraphs-MBXGraphs";
+			productReference = A607ABDDF3181EE29BF2C76432BF24F2 /* MBXGraphs.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A3DC924332CC970C1CBDF0651AB6244E /* MBXGraphs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 545058BBB3575701B560AF29E6A5B800 /* Build configuration list for PBXNativeTarget "MBXGraphs" */;
+			buildPhases = (
+				9BFC7B4465AA69A8DF7B374BB16B5369 /* Sources */,
+				CFA61F9D80C9BC8C2088D9FE90552B3E /* Frameworks */,
+				BBB7AFFC2395627FDD5F547878BFE3FA /* Resources */,
+				94486EDBC93A0624FE46FCE140423EFD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21AC429E7452BC04ADB5C745DDD43181 /* PBXTargetDependency */,
+			);
+			name = MBXGraphs;
+			productName = MBXGraphs;
+			productReference = 560CFE8E421B9E605C8074A8D1BCCC34 /* MBXGraphs.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A3DF35E448635CEFE889FA7232310F8C /* KRMLP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1F358FC5F395E4D9B863E9E8D72348B /* Build configuration list for PBXNativeTarget "KRMLP" */;
+			buildPhases = (
+				CE96AA7FBA1638D42B2AA68B9A3C6EEA /* Sources */,
+				D866634D0C7269F26C9F5CFAECF22265 /* Frameworks */,
+				FE476DBE4330DA6EE43C46E4FFD3A55D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRMLP;
+			productName = KRMLP;
+			productReference = 0E447A11D329684311CE754EFC37EE81 /* KRMLP.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F032D44C6855B5F0FC555D2E3EE29A6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3DF35E448635CEFE889FA7232310F8C /* KRMLP */,
+				A3DC924332CC970C1CBDF0651AB6244E /* MBXGraphs */,
+				38FEE84A1789B2E72A91CFFE2FE52910 /* MBXGraphs-MBXGraphs */,
+				1B2350B6558750EDF3B4DB15579B09BD /* Pods-KBTU_SCADA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBB7AFFC2395627FDD5F547878BFE3FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B261B953DE4978833B3AC3FBB1832BE4 /* MBXGraphs.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DF04BA5FF298020B943C2BE6726C91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FD152B7839B06761EBE5A88F26FEAA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189D3BB44E7539F0180B0E362C031777 /* Pods-KBTU_SCADA-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BFC7B4465AA69A8DF7B374BB16B5369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B4069B027C8C669EE06B7CC7918A9A /* MBXAxisVM.m in Sources */,
+				35CC90E672873465E8E80C941196A8CD /* MBXChartVM.m in Sources */,
+				A5E0910EB344A7D11C45A6B646836A3D /* MBXGraphAxisView.m in Sources */,
+				2B85E4A2B1F4F4EA21FDC7D4B139CF21 /* MBXGraphDataUtils.m in Sources */,
+				53A416EEEDD2C890AFBA28117D666AE8 /* MBXGraphs-dummy.m in Sources */,
+				74B17BBD3629B09B54CBB64C069F8DA2 /* MBXGraphView.m in Sources */,
+				82563B46E0EF666E2B4B6B7F66D2547A /* MBXGraphVM.m in Sources */,
+				D47156A60C14FB89F413C71CCA375CCF /* MBXLineGraphDataSource.m in Sources */,
+				D579C5FD775747766907A715E913EF5F /* MBXNumberUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA3BBB6814B6C75533B474C16A4D3B69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE96AA7FBA1638D42B2AA68B9A3C6EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7732DEBC0D12024C05083A8B702B2D64 /* KRMathLib.m in Sources */,
+				4DEBC33E47D02CFF9B1E0AD8AEFF3680 /* KRMLP-dummy.m in Sources */,
+				EE93B3A0EF5317835F8F455905772AB6 /* KRMLP.m in Sources */,
+				0F9C955F0474EE844D0606098612AF8C /* KRMLPActivation.m in Sources */,
+				D8EFB7452F88A4FD17C429D051B3DCB1 /* KRMLPCost.m in Sources */,
+				51E685808F792307B178C6328F60A12B /* KRMLPFetcher.m in Sources */,
+				9F70EA3F340C76520B7C68E46430B927 /* KRMLPHiddenLayer.m in Sources */,
+				704F6C372456E6758C669C2824BB84F2 /* KRMLPHiddenNet.m in Sources */,
+				6481BFDD0D4711CDCB248BF742E10140 /* KRMLPInertia.m in Sources */,
+				5EECFA1E8F1638FC7F7E72EA07321A3E /* KRMLPInputLayer.m in Sources */,
+				4EE8773239A793F6B44D5559BB37D923 /* KRMLPLayer.m in Sources */,
+				E9529B20B927A9AD1CE8875BB47F4FE3 /* KRMLPNet.m in Sources */,
+				33DE267FF5B384ECAAA47C0826382D1D /* KRMLPNetworkOutput.m in Sources */,
+				421EC538D08ADB503FB759C183537E0F /* KRMLPOptimization.m in Sources */,
+				A0A36E7AA583D61082D17B0FFFCCF8D1 /* KRMLPOutputLayer.m in Sources */,
+				FBCD247087484A7CD145F4767258A84E /* KRMLPOutputNet.m in Sources */,
+				63F9B77C40568778D370E9F7064F2875 /* KRMLPPassed.m in Sources */,
+				43B9C56CC9A3DE41E7CB474229636A95 /* KRMLPPattern.m in Sources */,
+				F1B601F3D1EDED9DE62FB2AADD7A27CD /* KRMLPResult.m in Sources */,
+				6A133E72E6387456448FCBB29DA734D0 /* KRMLPTrainingOutput.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21AC429E7452BC04ADB5C745DDD43181 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MBXGraphs-MBXGraphs";
+			target = 38FEE84A1789B2E72A91CFFE2FE52910 /* MBXGraphs-MBXGraphs */;
+			targetProxy = 9B045CE7D3A1A662FEA7125FB3BADEBD /* PBXContainerItemProxy */;
+		};
+		336B207018F7B1CB22B69B47F16A64BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KRMLP;
+			target = A3DF35E448635CEFE889FA7232310F8C /* KRMLP */;
+			targetProxy = 0769242DA781C70CC5351D52D9643F79 /* PBXContainerItemProxy */;
+		};
+		ACE556E6B4F3B1C80C5FC069B8326E74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBXGraphs;
+			target = A3DC924332CC970C1CBDF0651AB6244E /* MBXGraphs */;
+			targetProxy = 24216D032F99FA39DCD870AA92E1DEF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14D720B625A6BB103B82645D3F443510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AAF429B58CAA34F2105C5D090B1A6D1 /* Pods-KBTU_SCADA.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KBTU_SCADA/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KBTU_SCADA/Pods-KBTU_SCADA.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KBTU_SCADA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47B613CED44F4ACDD2B1454D852233D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA7B91ACF4591268854849F54F49C1AD /* MBXGraphs.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBXGraphs/MBXGraphs-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBXGraphs/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBXGraphs/MBXGraphs.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MBXGraphs;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		95773278E253705E538BA81F8E870924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD399E67760CAC702585685AB023870E /* KRMLP.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KRMLP/KRMLP-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KRMLP/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KRMLP/KRMLP.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KRMLP;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0DB5A63D190A7DF716B0A1E3A23BA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1663B857A948DBF65F2E12AE0525EF50 /* Pods-KBTU_SCADA.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KBTU_SCADA/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KBTU_SCADA/Pods-KBTU_SCADA.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KBTU_SCADA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9AB81BFD05E6D67605417F865AD0797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E91A2D6121348CA607EE482E454661E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA7B91ACF4591268854849F54F49C1AD /* MBXGraphs.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MBXGraphs";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/MBXGraphs/ResourceBundle-MBXGraphs-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MBXGraphs;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		EDC2AA7A769C7EC8985877948E1A0E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F794A282CBD9C3E9E3729B12D41CC4B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA7B91ACF4591268854849F54F49C1AD /* MBXGraphs.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MBXGraphs";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/MBXGraphs/ResourceBundle-MBXGraphs-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MBXGraphs;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F9B4E34937377D9C29B4F2322C585510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA7B91ACF4591268854849F54F49C1AD /* MBXGraphs.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBXGraphs/MBXGraphs-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBXGraphs/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBXGraphs/MBXGraphs.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MBXGraphs;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB0AD6D303E5D2AFD7090B1CB016B510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD399E67760CAC702585685AB023870E /* KRMLP.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KRMLP/KRMLP-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KRMLP/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KRMLP/KRMLP.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KRMLP;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9AB81BFD05E6D67605417F865AD0797 /* Debug */,
+				EDC2AA7A769C7EC8985877948E1A0E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AB4DB91AA95F080A7AC7890567D31A3 /* Build configuration list for PBXNativeTarget "Pods-KBTU_SCADA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14D720B625A6BB103B82645D3F443510 /* Debug */,
+				A0DB5A63D190A7DF716B0A1E3A23BA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		545058BBB3575701B560AF29E6A5B800 /* Build configuration list for PBXNativeTarget "MBXGraphs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47B613CED44F4ACDD2B1454D852233D8 /* Debug */,
+				F9B4E34937377D9C29B4F2322C585510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1F358FC5F395E4D9B863E9E8D72348B /* Build configuration list for PBXNativeTarget "KRMLP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0AD6D303E5D2AFD7090B1CB016B510 /* Debug */,
+				95773278E253705E538BA81F8E870924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7F1480324908EA742D86866645A97A8 /* Build configuration list for PBXNativeTarget "MBXGraphs-MBXGraphs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91A2D6121348CA607EE482E454661E8 /* Debug */,
+				F794A282CBD9C3E9E3729B12D41CC4B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

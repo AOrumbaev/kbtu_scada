@@ -1,5 +1,5 @@
 //
-//  AOSensorCell.h
+//  AOAOSensorCell.h
 //  KBTU_SCADA
 //
 //  Created by Altynbek Orumbayev on 30/04/2017.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SensorCell : UITableViewCell
+@interface AOSensorCell : UITableViewCell
 
 @property (strong, nonatomic) IBOutlet UIImageView *sensorImageView;
 @property (strong, nonatomic) IBOutlet UILabel *titleLabel;

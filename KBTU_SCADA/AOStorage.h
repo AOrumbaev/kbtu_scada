@@ -1,5 +1,5 @@
 //
-//  Storage.h
+//  AOStorage.h
 //  KBTU_SCADA
 //
 //  Created by Altynbek Orumbayev on 30/04/2017.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Storage : NSObject
+@interface AOStorage : NSObject
 
 + (instancetype)sharedInstance;
 @property (strong, nonatomic) NSMutableArray *sensorsArray;

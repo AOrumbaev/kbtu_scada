@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'EA9517F2D13159A4A2BFB036BD846049'
+               BlueprintIdentifier = 'A3DF35E448635CEFE889FA7232310F8C'
                BlueprintName = 'KRMLP'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libKRMLP.a'>
+               BuildableName = 'KRMLP.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

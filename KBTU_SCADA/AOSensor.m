@@ -8,15 +8,15 @@
 
 #import "AOSensor.h"
 
-@implementation Sensor
+@implementation AOSensor
 
-- (instancetype)initWithTitle:(NSString *)title andDataset:(NSArray *)dataset {
+- (instancetype)initWithTitle:(NSString *)title andDataset:(NSString *)dataset {
  
     self = [super init];
     
     if (self) {
         self.title = title;
-        self.dataset = dataset;
+        self.datasetLink = dataset;
     }
     
     return self;

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '667D20F9DD86D48ED4D5241A5412700F'
+               BlueprintIdentifier = '38FEE84A1789B2E72A91CFFE2FE52910'
                BlueprintName = 'MBXGraphs-MBXGraphs'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'MBXGraphs.bundle'>

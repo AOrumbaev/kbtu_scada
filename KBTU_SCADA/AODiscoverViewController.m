@@ -14,14 +14,14 @@
 @import YCML;
 @import YCMatrix;
 
-@interface DiscoverViewController ()
+@interface AODiscoverViewController ()
 @property (strong, nonatomic) IBOutlet UITextField *inputField;
 @property (weak, nonatomic) IBOutlet UITextView *statusTextView;
 
 @property (strong, nonatomic) KRMLP *mlp;
 @end
 
-@implementation DiscoverViewController
+@implementation AODiscoverViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

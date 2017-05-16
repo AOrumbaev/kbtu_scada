@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '7D1D5EF8E30292C4F0CD8CC73E4FCBB6'
+               BlueprintIdentifier = 'A3DC924332CC970C1CBDF0651AB6244E'
                BlueprintName = 'MBXGraphs'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libMBXGraphs.a'>
+               BuildableName = 'MBXGraphs.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

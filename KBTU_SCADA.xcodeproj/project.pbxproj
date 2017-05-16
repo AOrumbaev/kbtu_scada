@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B05C1A0E18AEF3DD369169B /* Pods_KBTU_SCADA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EA80D686C70107E15FB397 /* Pods_KBTU_SCADA.framework */; };
 		59018B791EC2302000B31E1D /* AOGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59018B781EC2302000B31E1D /* AOGraphView.m */; };
 		5903156D1EB608C600BE0623 /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5903156C1EB608C600BE0623 /* CHCSVParser.m */; };
 		5917B79B1EB60CF500AAD8CC /* AOSensorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5917B79A1EB60CF500AAD8CC /* AOSensorCell.m */; };
@@ -14,10 +15,15 @@
 		5917B7A41EB6131000AAD8CC /* AOAddSensorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5917B7A31EB6131000AAD8CC /* AOAddSensorViewController.m */; };
 		5917B7A71EB627FF00AAD8CC /* AOStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5917B7A61EB627FF00AAD8CC /* AOStorage.m */; };
 		5928BD731ECB2CB80062A842 /* housing.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5928BD721ECB2CB80062A842 /* housing.csv */; };
-		5928BD791ECB55D50062A842 /* YCML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5928BD781ECB55D50062A842 /* YCML.framework */; };
-		5928BD7B1ECB55DA0062A842 /* YCMatrix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5928BD7A1ECB55DA0062A842 /* YCMatrix.framework */; };
 		594B171A1E9CE6E600ABB072 /* tempData.csv in Resources */ = {isa = PBXBuildFile; fileRef = 594B17191E9CE6E600ABB072 /* tempData.csv */; };
 		594B171C1E9CF58600ABB072 /* test.csv in Resources */ = {isa = PBXBuildFile; fileRef = 594B171B1E9CF58600ABB072 /* test.csv */; };
+		59BCA6FC1ECB572B0046CE71 /* YCML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5928BD781ECB55D50062A842 /* YCML.framework */; };
+		59BCA6FD1ECB572B0046CE71 /* YCML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5928BD781ECB55D50062A842 /* YCML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		59BCA6FF1ECB572E0046CE71 /* YCMatrix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5928BD7A1ECB55DA0062A842 /* YCMatrix.framework */; };
+		59BCA7001ECB572E0046CE71 /* YCMatrix.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5928BD7A1ECB55DA0062A842 /* YCMatrix.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		59BCA7051ECB59F00046CE71 /* TBWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BCA7041ECB59F00046CE71 /* TBWebViewController.m */; };
+		59BCA7091ECB5E8D0046CE71 /* AOTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BCA7081ECB5E8D0046CE71 /* AOTabBarController.m */; };
+		59BCA70D1ECB75C80046CE71 /* AOCSVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BCA70C1ECB75C80046CE71 /* AOCSVViewController.m */; };
 		59CAB4591DDC89C600D25FA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CAB4581DDC89C600D25FA6 /* main.m */; };
 		59CAB45C1DDC89C600D25FA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CAB45B1DDC89C600D25FA6 /* AppDelegate.m */; };
 		59CAB45F1DDC89C600D25FA6 /* AODiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CAB45E1DDC89C600D25FA6 /* AODiscoverViewController.m */; };
@@ -26,16 +32,17 @@
 		59CAB4671DDC89C600D25FA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59CAB4651DDC89C600D25FA6 /* LaunchScreen.storyboard */; };
 		59EFB4F31DDCA64A00FCB54A /* AOPlotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59EFB4F21DDCA64A00FCB54A /* AOPlotViewController.m */; };
 		C3A600CC1EB5F736002D0736 /* AOSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A600CB1EB5F736002D0736 /* AOSensor.m */; };
-		C9645DA9482FB38C7D48EB82 /* libPods-KBTU_SCADA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBFBBD56DD117A91F7CB432 /* libPods-KBTU_SCADA.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		590315671EB6084C00BE0623 /* Embed Frameworks */ = {
+		59BCA6FE1ECB572B0046CE71 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				59BCA6FD1ECB572B0046CE71 /* YCML.framework in Embed Frameworks */,
+				59BCA7001ECB572E0046CE71 /* YCMatrix.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,7 +50,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1EBFBBD56DD117A91F7CB432 /* libPods-KBTU_SCADA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KBTU_SCADA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56EA80D686C70107E15FB397 /* Pods_KBTU_SCADA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KBTU_SCADA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59018B771EC2302000B31E1D /* AOGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOGraphView.h; sourceTree = "<group>"; };
 		59018B781EC2302000B31E1D /* AOGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOGraphView.m; sourceTree = "<group>"; };
 		5903156B1EB608C600BE0623 /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
@@ -63,6 +70,12 @@
 		594B16FF1E9CCCC600ABB072 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		594B17191E9CE6E600ABB072 /* tempData.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = tempData.csv; path = ../../../python/tempData.csv; sourceTree = "<group>"; };
 		594B171B1E9CF58600ABB072 /* test.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = test.csv; path = ../../../python/test.csv; sourceTree = "<group>"; };
+		59BCA7031ECB59F00046CE71 /* TBWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBWebViewController.h; sourceTree = "<group>"; };
+		59BCA7041ECB59F00046CE71 /* TBWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBWebViewController.m; sourceTree = "<group>"; };
+		59BCA7071ECB5E8D0046CE71 /* AOTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOTabBarController.h; sourceTree = "<group>"; };
+		59BCA7081ECB5E8D0046CE71 /* AOTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOTabBarController.m; sourceTree = "<group>"; };
+		59BCA70B1ECB75C80046CE71 /* AOCSVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOCSVViewController.h; sourceTree = "<group>"; };
+		59BCA70C1ECB75C80046CE71 /* AOCSVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOCSVViewController.m; sourceTree = "<group>"; };
 		59CAB4541DDC89C600D25FA6 /* KBTU_SCADA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KBTU_SCADA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59CAB4581DDC89C600D25FA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		59CAB45A1DDC89C600D25FA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -86,9 +99,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5928BD7B1ECB55DA0062A842 /* YCMatrix.framework in Frameworks */,
-				5928BD791ECB55D50062A842 /* YCML.framework in Frameworks */,
-				C9645DA9482FB38C7D48EB82 /* libPods-KBTU_SCADA.a in Frameworks */,
+				59BCA6FF1ECB572E0046CE71 /* YCMatrix.framework in Frameworks */,
+				59BCA6FC1ECB572B0046CE71 /* YCML.framework in Frameworks */,
+				1B05C1A0E18AEF3DD369169B /* Pods_KBTU_SCADA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +142,7 @@
 		592E9B011E9E9EA0008F5CB1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				59BCA7021ECB59DE0046CE71 /* Helpers */,
 				59CAB45D1DDC89C600D25FA6 /* AODiscoverViewController.h */,
 				59CAB45E1DDC89C600D25FA6 /* AODiscoverViewController.m */,
 				59EFB4F11DDCA64A00FCB54A /* AOPlotViewController.h */,
@@ -137,8 +151,21 @@
 				5917B7A01EB60E8900AAD8CC /* AOSensorViewController.m */,
 				5917B7A21EB6131000AAD8CC /* AOAddSensorViewController.h */,
 				5917B7A31EB6131000AAD8CC /* AOAddSensorViewController.m */,
+				59BCA7071ECB5E8D0046CE71 /* AOTabBarController.h */,
+				59BCA7081ECB5E8D0046CE71 /* AOTabBarController.m */,
+				59BCA70B1ECB75C80046CE71 /* AOCSVViewController.h */,
+				59BCA70C1ECB75C80046CE71 /* AOCSVViewController.m */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		59BCA7021ECB59DE0046CE71 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				59BCA7031ECB59F00046CE71 /* TBWebViewController.h */,
+				59BCA7041ECB59F00046CE71 /* TBWebViewController.m */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 		59CAB44B1DDC89C600D25FA6 = {
@@ -196,7 +223,7 @@
 				5928BD7A1ECB55DA0062A842 /* YCMatrix.framework */,
 				5928BD781ECB55D50062A842 /* YCML.framework */,
 				594B16FF1E9CCCC600ABB072 /* XCTest.framework */,
-				1EBFBBD56DD117A91F7CB432 /* libPods-KBTU_SCADA.a */,
+				56EA80D686C70107E15FB397 /* Pods_KBTU_SCADA.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -208,7 +235,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59CAB46B1DDC89C600D25FA6 /* Build configuration list for PBXNativeTarget "KBTU_SCADA" */;
 			buildPhases = (
-				2FECBF996BF9B618B94C3C63 /* 📦 Check Pods Manifest.lock */,
+				2FECBF996BF9B618B94C3C63 /* [CP] Check Pods Manifest.lock */,
 				A85614EF5FDD49C5F966EC6A /* [CP] Check Pods Manifest.lock */,
 				052F1F0F503C224A51B32B36 /* [CP] Check Pods Manifest.lock */,
 				CC0E9072A6F27209BF1180AD /* [CP] Check Pods Manifest.lock */,
@@ -219,7 +246,7 @@
 				0410936867A298A70E09A97C /* [CP] Copy Pods Resources */,
 				04BBE5479F5B39A1E570656A /* 📦 Embed Pods Frameworks */,
 				31BB5F8827566C0FEF84D55B /* 📦 Copy Pods Resources */,
-				590315671EB6084C00BE0623 /* Embed Frameworks */,
+				59BCA6FE1ECB572B0046CE71 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -341,19 +368,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KBTU_SCADA/Pods-KBTU_SCADA-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2FECBF996BF9B618B94C3C63 /* 📦 Check Pods Manifest.lock */ = {
+		2FECBF996BF9B618B94C3C63 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		31BB5F8827566C0FEF84D55B /* 📦 Copy Pods Resources */ = {
@@ -409,6 +436,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5903156D1EB608C600BE0623 /* CHCSVParser.m in Sources */,
+				59BCA70D1ECB75C80046CE71 /* AOCSVViewController.m in Sources */,
 				59CAB45F1DDC89C600D25FA6 /* AODiscoverViewController.m in Sources */,
 				5917B7A11EB60E8900AAD8CC /* AOSensorViewController.m in Sources */,
 				59EFB4F31DDCA64A00FCB54A /* AOPlotViewController.m in Sources */,
@@ -416,9 +444,11 @@
 				59CAB45C1DDC89C600D25FA6 /* AppDelegate.m in Sources */,
 				59018B791EC2302000B31E1D /* AOGraphView.m in Sources */,
 				5917B7A41EB6131000AAD8CC /* AOAddSensorViewController.m in Sources */,
+				59BCA7091ECB5E8D0046CE71 /* AOTabBarController.m in Sources */,
 				5917B7A71EB627FF00AAD8CC /* AOStorage.m in Sources */,
 				59CAB4591DDC89C600D25FA6 /* main.m in Sources */,
 				C3A600CC1EB5F736002D0736 /* AOSensor.m in Sources */,
+				59BCA7051ECB59F00046CE71 /* TBWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
