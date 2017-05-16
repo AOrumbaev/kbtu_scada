@@ -7,6 +7,7 @@
 //
 
 #import "AOSensor.h"
+@import YCML;
 
 @implementation AOSensor
 

@@ -17,6 +17,7 @@
 @interface AODiscoverViewController ()
 @property (strong, nonatomic) IBOutlet UITextField *inputField;
 @property (weak, nonatomic) IBOutlet UITextView *statusTextView;
+@property (strong, nonatomic) IBOutlet UILabel *emojiLabel;
 
 @property (strong, nonatomic) KRMLP *mlp;
 @end

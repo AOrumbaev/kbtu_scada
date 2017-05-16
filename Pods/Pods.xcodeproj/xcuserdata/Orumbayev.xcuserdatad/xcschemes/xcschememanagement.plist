@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>IQKeyboardManager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>KRMLP.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,12 +32,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1B2350B6558750EDF3B4DB15579B09BD</key>
+		<key>38FEE84A1789B2E72A91CFFE2FE52910</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>38FEE84A1789B2E72A91CFFE2FE52910</key>
+		<key>9B0D9456B2BB94474E99DEAD62C3B9FE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -43,6 +48,11 @@
 			<true/>
 		</dict>
 		<key>A3DF35E448635CEFE889FA7232310F8C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C36CB2CB977A4E7D954935096D00A1ED</key>
 		<dict>
 			<key>primary</key>
 			<true/>

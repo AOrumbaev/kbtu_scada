@@ -20,5 +20,6 @@
 @interface AOCSVViewController : UIViewController
 
 @property (nonatomic, copy) NSString *pathToCSV;
+@property (nonatomic, weak) id <AOCSVViewControllerDelegate> delegate;
 
 @end

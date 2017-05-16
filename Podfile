@@ -8,4 +8,5 @@ use_frameworks!
   # Pods for KBTU_SCADA
 pod "MBXGraphs"
 pod "KRMLP", "~> 2.2.0"
+pod 'IQKeyboardManager'
 end

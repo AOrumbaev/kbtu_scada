@@ -55,7 +55,6 @@
 		59018B781EC2302000B31E1D /* AOGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOGraphView.m; sourceTree = "<group>"; };
 		5903156B1EB608C600BE0623 /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
 		5903156C1EB608C600BE0623 /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
-		5917B7961EB60A6B00AAD8CC /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		5917B7991EB60CF500AAD8CC /* AOSensorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOSensorCell.h; sourceTree = "<group>"; };
 		5917B79A1EB60CF500AAD8CC /* AOSensorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOSensorCell.m; sourceTree = "<group>"; };
 		5917B79F1EB60E8900AAD8CC /* AOSensorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AOSensorViewController.h; path = Assets.xcassets/AOSensorViewController.h; sourceTree = "<group>"; };
@@ -70,6 +69,8 @@
 		594B16FF1E9CCCC600ABB072 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		594B17191E9CE6E600ABB072 /* tempData.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = tempData.csv; path = ../../../python/tempData.csv; sourceTree = "<group>"; };
 		594B171B1E9CF58600ABB072 /* test.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = test.csv; path = ../../../python/test.csv; sourceTree = "<group>"; };
+		596A42921ECB8B9F00E1B7CA /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		596A42951ECB8C1C00E1B7CA /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		59BCA7031ECB59F00046CE71 /* TBWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBWebViewController.h; sourceTree = "<group>"; };
 		59BCA7041ECB59F00046CE71 /* TBWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBWebViewController.m; sourceTree = "<group>"; };
 		59BCA7071ECB5E8D0046CE71 /* AOTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOTabBarController.h; sourceTree = "<group>"; };
@@ -206,13 +207,14 @@
 		59CAB4571DDC89C600D25FA6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5917B7961EB60A6B00AAD8CC /* Constants.h */,
+				596A42951ECB8C1C00E1B7CA /* Constants.h */,
 				5903156B1EB608C600BE0623 /* CHCSVParser.h */,
 				5903156C1EB608C600BE0623 /* CHCSVParser.m */,
 				594B17191E9CE6E600ABB072 /* tempData.csv */,
 				594B171B1E9CF58600ABB072 /* test.csv */,
 				5928BD721ECB2CB80062A842 /* housing.csv */,
 				59CAB4581DDC89C600D25FA6 /* main.m */,
+				596A42921ECB8B9F00E1B7CA /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -576,6 +578,7 @@
 					"$(PROJECT_DIR)/KBTU_SCADA/YCML-master\\ 3/build/Debug",
 					"$(PROJECT_DIR)/KBTU_SCADA/YCML-master\\ 3/build/Debug",
 				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KBTU_SCADA/PrefixHeader.pch";
 				INFOPLIST_FILE = KBTU_SCADA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aorumbayev.KBTU-SCADA";
@@ -595,6 +598,7 @@
 					"$(PROJECT_DIR)/KBTU_SCADA/YCML-master\\ 3/build/Debug",
 					"$(PROJECT_DIR)/KBTU_SCADA/YCML-master\\ 3/build/Debug",
 				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KBTU_SCADA/PrefixHeader.pch";
 				INFOPLIST_FILE = KBTU_SCADA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aorumbayev.KBTU-SCADA";

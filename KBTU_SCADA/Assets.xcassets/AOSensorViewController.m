@@ -76,6 +76,7 @@
         TBWebViewController *vc = [[TBWebViewController alloc] init];
         [vc loadUrl:curSensor.datasetLink];
         [self.navigationController pushViewController:vc animated:YES];
+        [tableView deselectRowAtIndexPath:indexPath animated:YES];
     }
 }
 
