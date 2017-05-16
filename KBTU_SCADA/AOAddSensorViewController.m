@@ -46,6 +46,8 @@
     
     else {
         UIAlertController *ac = [UIAlertController alertControllerWithTitle:@"Error" message:@"Please, make sure you have entered correct values" preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction *ok = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil];
+        [ac addAction:ok];
         [self presentViewController:ac animated:YES completion:nil];
     }
     
