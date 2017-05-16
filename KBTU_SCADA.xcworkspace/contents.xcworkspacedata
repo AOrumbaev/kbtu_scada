@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:YCML-master 3/YCML.xcodeproj">
+      location = "group:KBTU_SCADA/YCML-master 3/YCML.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:KBTU_SCADA.xcodeproj">

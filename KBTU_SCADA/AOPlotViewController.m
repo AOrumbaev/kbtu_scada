@@ -11,8 +11,8 @@
 #import "MBXGraphView.h"
 #import "MBXGraphAxisView.h"
 #import "Constants.h"
-#import "Sensor.h"
-#import "Storage.h"
+#import "AOSensor.h"
+#import "AOStorage.h"
 
 #import "MBXChartVM.h"
 

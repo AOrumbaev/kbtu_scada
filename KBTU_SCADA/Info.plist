@@ -36,5 +36,23 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>CSV Document</string>
+			<key>CFBundleTypeIconFiles</key>
+			<array>
+				<string>csvIcon.png</string>
+				<string>csvIcon.png</string>
+			</array>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.aorumbayev.KBTU-SCADA.csv</string>
+			</array>
+			<key>LSHandlerRank</key>
+			<string>Default</string>
+		</dict>
+	</array>
 </dict>
 </plist>
